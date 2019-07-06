@@ -99,9 +99,7 @@ int ComputeCNGallopingSingleDirAVX512(Graph *g, int u, int v) {
         v = tmp;
     }
     auto off_nei_u = g->node_off[u], off_nei_v = g->node_off[v];
-    auto
-    off_u_end = g->node_off[u + 1], off_v_
-    end = g->node_off[v + 1];
+    auto off_u_end = g->node_off[u + 1], off_v_end = g->node_off[v + 1];
 
     while (true) {
         while (g->edge_dst[off_nei_u] < g->edge_dst[off_nei_v]) {

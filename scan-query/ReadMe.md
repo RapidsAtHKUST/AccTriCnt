@@ -16,7 +16,7 @@ option(BUILD_LEGACY "build-legacy" OFF)
 option(KNL "enable knl compilation" OFF)
 ```
 
-* for knl building, add `-DKNL=ON`
+* for knl building, add `-DKNL=ON`, and use latest g++ supporting `AVX-512`, via `scl enable devtoolset-7 zsh`
 
 ## Usage (TC/SCAN)
 
