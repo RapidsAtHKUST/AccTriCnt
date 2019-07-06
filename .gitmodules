@@ -1,0 +1,49 @@
+[submodule "dependencies/sparsepp"]
+	path = dependencies/sparsepp
+	url = git@github.com:greg7mdp/sparsepp.git
+[submodule "dependencies/CRoaring"]
+	path = dependencies/CRoaring
+	url = https://github.com/RoaringBitmap/CRoaring.git
+[submodule "dependencies/libpopcnt"]
+	path = dependencies/libpopcnt
+	url = git@github.com:kimwalisch/libpopcnt.git
+[submodule "dependencies/snap"]
+	path = dependencies/snap
+	url = https://github.com/snap-stanford/snap.git
+[submodule "dependencies/SFMT"]
+	path = dependencies/SFMT
+	url = https://github.com/MersenneTwister-Lab/SFMT.git
+[submodule "dependencies/libcds"]
+	path = dependencies/libcds
+	url = https://github.com/khizmax/libcds.git
+[submodule "dependencies/sparse-map"]
+	path = dependencies/sparse-map
+	url = https://github.com/Tessil/sparse-map.git
+[submodule "submodule.dependencies/sparsepp.path"]
+	path = dependencies/sparsepp
+	url = git@github.com:greg7mdp/sparsepp.git
+	branch = master
+[submodule "submodule.dependencies/CRoaring.path"]
+	path = dependencies/CRoaring
+	url = https://github.com/RoaringBitmap/CRoaring.git
+	branch = master
+[submodule "submodule.dependencies/libpopcnt.path"]
+	path = dependencies/libpopcnt
+	url = git@github.com:kimwalisch/libpopcnt.git
+	branch = master
+[submodule "submodule.dependencies/snap.path"]
+	path = dependencies/snap
+	url = https://github.com/snap-stanford/snap.git
+	branch = master
+[submodule "submodule.dependencies/SFMT.path"]
+	path = dependencies/SFMT
+	url = https://github.com/MersenneTwister-Lab/SFMT.git
+	branch = master
+[submodule "submodule.dependencies/libcds.path"]
+	path = dependencies/libcds
+	url = https://github.com/khizmax/libcds.git
+	branch = master
+[submodule "submodule.dependencies/sparse-map.path"]
+	path = dependencies/sparse-map
+	url = https://github.com/Tessil/sparse-map.git
+	branch = master
