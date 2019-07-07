@@ -3,6 +3,7 @@
 
 #define ALLOWED_MAX_PASS_NUM (10)
 #define TASK_AMPLIFY_FACTOR (8)
+#define WARP_PER_VERTEX
 
 void SCAN_XP::CheckCore(Graph *g) {
 	auto start = high_resolution_clock::now();
@@ -161,13 +162,9 @@ void SCAN_XP::CheckCore(Graph *g) {
 				set_intersection_GPU_bitmap_warp_per_vertex_1D<<<num_blocks_to_process, t_dimension>>>(
 						g->node_off, g->edge_dst, d_bitmaps, d_bitmap_states, d_vertex_count, conc_blocks_per_SM, g->common_node_num, g->nodemax,
 						multi_pass_range[pass_id], multi_pass_range[pass_id+1]);
-#elif defined(USE_BITMAP_KERNEL) && defined(WARP_PER_VERTEX) && defined(UNIFIED_MEM)
+#elif defined(USE_BITMAP_KERNEL) && defined(UNIFIED_MEM)
 				set_intersection_GPU_bitmap_warp_per_vertex<<<num_blocks_to_process, t_dimension, val_size_bitmap_indexes*sizeof(uint32_t)>>>(
 						g->node_off, g->edge_dst, d_bitmaps, d_bitmap_states, d_vertex_count, conc_blocks_per_SM, g->common_node_num, g->nodemax,
-						multi_pass_range[pass_id], multi_pass_range[pass_id+1]);
-#elif defined(USE_BITMAP_KERNEL) && defined(UNIFIED_MEM)
-				set_intersection_GPU_bitmap<<<num_blocks_to_process, t_dimension, val_size_bitmap_indexes*sizeof(uint32_t)>>>(g->node_off, g->edge_dst,
-						d_bitmaps, d_bitmap_states, d_vertex_count, conc_blocks_per_SM, g->common_node_num, g->nodemax,
 						multi_pass_range[pass_id], multi_pass_range[pass_id+1]);
 #elif defined(USE_HYBRID_KERNELS)
 				auto skew_ratio = 50;
