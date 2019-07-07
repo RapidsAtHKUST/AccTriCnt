@@ -35,7 +35,19 @@ num_of_warps_global = atoi(argv[6]);
 
 ## Code Structures
 
-See [experimental](experimental).
+* Experimental codes
+
+File | Comment
+--- | ---
+[util](util) | grpah, log, stat, union-find, util, serialization
+[set-inter](set-inter) | set intersections on CPUs
+[cuda_utils](cuda_utils) | device util and set intersection functions
+[experimental](experimental) | some legacy codes
+[scan_xp.h](scan_xp.h), [scan_xp_common.cu](scan_xp_common.cu) | SCAN codes
+[scan_xp_multi_gpu_multi_pass_common.cu](scan_xp_multi_gpu_multi_pass_common.cu) | counting kernels
+[experimental_scan_xp_multigpu_multipass.cu](experimental_scan_xp_multigpu_multipass.cu) | kernel invocation wrappers
+
+* Legacy codes: see [experimental](experimental).
 
 ## Others
 

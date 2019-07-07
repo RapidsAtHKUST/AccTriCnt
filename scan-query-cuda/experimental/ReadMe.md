@@ -7,20 +7,20 @@
 
 file | description
 --- | ---
-[scan_xp_common.cu](scan_xp_common.cu) | scan-xp common algorithmic functions, directly copy and paste into separate files
-[set_inter_device_functions.cuh](set_inter_device_functions.cuh) | set-intersection scalar device functions
-[cuda_util.cuh](cuda_util.cuh) | cuda utilities
-[scan_xp_multigpu_multipass.cu](scan_xp_multigpu_multipass.cu) | multi-gpu multiple-pass implementation for `snap-friendster` and larger datasets
+[../scan_xp_common.cu](../scan_xp_common.cu) | scan-xp common algorithmic functions, directly copy and paste into separate files
+[../cuda_utils/set_inter_device_functions.cuh](../cuda_utils/set_inter_device_functions.cuh) | set-intersection scalar device functions
+[../cuda_utils/cuda_util.cuh](../cuda_utils/cuda_util.cuh) | cuda utilities
 
 file | description
 --- | ---
 [scan_xp.cu](scan_xp.cu) | `warning: depracated`: single-gpu implementation
 [scan_xp_multipass.cu](scan_xp_multipass.cu) | single-gpu multiple-pass for `snap-friendster` and larger datasets
 [scan_xp_multigpu.cu](scan_xp_multigpu.cu) | `warning: depracated`: a special case of [scan_xp_multigpu_multipass.cu](scan_xp_multigpu_multipass.cu)
+[scan_xp_multigpu_multipass.cu](scan_xp_multigpu_multipass.cu) | multi-gpu multiple-pass implementation for `snap-friendster` and larger datasets
 
 ## Compile (CUDA-ALL, with MergeBased and Baseline)
 
-see [CMakeLists.txt](CMakeLists.txt)
+see [../CMakeLists.txt](../CMakeLists.txt)
 
 attention: first time `make -j` may report error, then `make -j` again to build all cuda executables
 
