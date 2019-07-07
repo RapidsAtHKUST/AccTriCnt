@@ -48,6 +48,7 @@ Folder | Comment
 [graph-reordering](graph-reordering) | graph reordering utilities
 [scan-query](scan-query) | SCAN (part of which is all-edge TC) / TC on CPUs and KNL
 [scan-query-cuda](scan-query-cuda) | SCAN (part of which is all-edge TC) on GPUs (single-GPU/multi-GPU)
+[python_experiments](python_experiments) | python experimental scripts
 
 ## Git Modules
 

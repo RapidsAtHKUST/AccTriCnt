@@ -1,0 +1,354 @@
+{
+    "webgraph_webbase": {
+        "1": {
+            "Proc Time": 536.22, 
+            "Shrink Time": 17.921, 
+            "Tri time": 52.352, 
+            "Scan Time": 52.577
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.4283604871088695, 
+            "Shrink Time": 0.9570692615912992, 
+            "Tri time": 1.190497534737786, 
+            "Scan Time": 1.191311386940097
+        }, 
+        "20": {
+            "Proc Time": 86.093, 
+            "Shrink Time": 1.672, 
+            "Tri time": 2.656, 
+            "Scan Time": 4.415
+        }, 
+        "speedup": {
+            "Proc Time": 8.89637322892126, 
+            "Shrink Time": 10.258156840297652, 
+            "Tri time": 23.4657104437472, 
+            "Scan Time": 14.186994063680517
+        }, 
+        "40": {
+            "Proc Time": 60.274, 
+            "Shrink Time": 1.747, 
+            "Tri time": 2.231, 
+            "Scan Time": 3.706
+        }
+    }, 
+    "rmat_v0.5m_e0.5g": {
+        "1": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.230622265916477, 
+            "Shrink Time": 1.0454733741427717, 
+            "Tri time": 1.0779261915434037, 
+            "Scan Time": 1.3928250592757314
+        }, 
+        "20": {
+            "Proc Time": 2783.894, 
+            "Shrink Time": 22.715, 
+            "Tri time": 180.364, 
+            "Scan Time": 94.577
+        }, 
+        "speedup": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "40": {
+            "Proc Time": 2262.184, 
+            "Shrink Time": 21.727, 
+            "Tri time": 167.325, 
+            "Scan Time": 67.903
+        }
+    }, 
+    "rmat_v50m_e0.5g": {
+        "1": {
+            "Proc Time": 1352.935, 
+            "Shrink Time": 3.235, 
+            "Tri time": 286.293, 
+            "Scan Time": 2.894
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.504633598693611, 
+            "Shrink Time": 0.9252336448598132, 
+            "Tri time": 0.9416245756396456, 
+            "Scan Time": 0.32479414455626715
+        }, 
+        "20": {
+            "Proc Time": 73.712, 
+            "Shrink Time": 0.198, 
+            "Tri time": 22.744, 
+            "Scan Time": 0.355
+        }, 
+        "speedup": {
+            "Proc Time": 27.61655439885691, 
+            "Shrink Time": 15.116822429906541, 
+            "Tri time": 11.852819408793575, 
+            "Scan Time": 2.6477584629460202
+        }, 
+        "40": {
+            "Proc Time": 48.99, 
+            "Shrink Time": 0.214, 
+            "Tri time": 24.154, 
+            "Scan Time": 1.093
+        }
+    }, 
+    "snap_orkut": {
+        "1": {
+            "Proc Time": 391.878, 
+            "Shrink Time": 5.235, 
+            "Tri time": 50.931, 
+            "Scan Time": 7.056
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.4161172592418176, 
+            "Shrink Time": 1.0765957446808512, 
+            "Tri time": 1.3387909319899245, 
+            "Scan Time": 1.2774869109947644
+        }, 
+        "20": {
+            "Proc Time": 24.057, 
+            "Shrink Time": 0.759, 
+            "Tri time": 3.189, 
+            "Scan Time": 0.488
+        }, 
+        "speedup": {
+            "Proc Time": 23.067930303743818, 
+            "Shrink Time": 7.425531914893618, 
+            "Tri time": 21.3816120906801, 
+            "Scan Time": 18.471204188481675
+        }, 
+        "40": {
+            "Proc Time": 16.988, 
+            "Shrink Time": 0.705, 
+            "Tri time": 2.382, 
+            "Scan Time": 0.382
+        }
+    }, 
+    "snap_friendster": {
+        "1": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "20": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "speedup": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "40": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }
+    }, 
+    "rmat_v5m_e0.5g": {
+        "1": {
+            "Proc Time": 4875.365, 
+            "Shrink Time": 18.855, 
+            "Tri time": 982.262, 
+            "Scan Time": 27.963
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.4014843960758252, 
+            "Shrink Time": 1.0593354430379747, 
+            "Tri time": 1.0591590179684787, 
+            "Scan Time": 1.0391717963066593
+        }, 
+        "20": {
+            "Proc Time": 212.999, 
+            "Shrink Time": 1.339, 
+            "Tri time": 51.813, 
+            "Scan Time": 1.857
+        }, 
+        "speedup": {
+            "Proc Time": 32.07877958429014, 
+            "Shrink Time": 14.916930379746836, 
+            "Tri time": 20.079355669576238, 
+            "Scan Time": 15.648013430330163
+        }, 
+        "40": {
+            "Proc Time": 151.981, 
+            "Shrink Time": 1.264, 
+            "Tri time": 48.919, 
+            "Scan Time": 1.787
+        }
+    }, 
+    "webgraph_it": {
+        "1": {
+            "Proc Time": 1804.366, 
+            "Shrink Time": 23.381, 
+            "Tri time": 153.308, 
+            "Scan Time": 156.21
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.3724004278788047, 
+            "Shrink Time": 0.9614976101964949, 
+            "Tri time": 1.1203325774754345, 
+            "Scan Time": 1.144435743496041
+        }, 
+        "20": {
+            "Proc Time": 197.579, 
+            "Shrink Time": 3.621, 
+            "Tri time": 7.411, 
+            "Scan Time": 13.153
+        }, 
+        "speedup": {
+            "Proc Time": 12.533278690801994, 
+            "Shrink Time": 6.208443972384493, 
+            "Tri time": 23.175812547241115, 
+            "Scan Time": 13.5917515009136
+        }, 
+        "40": {
+            "Proc Time": 143.966, 
+            "Shrink Time": 3.766, 
+            "Tri time": 6.615, 
+            "Scan Time": 11.493
+        }
+    }, 
+    "webgraph_uk": {
+        "1": {
+            "Proc Time": 142.685, 
+            "Shrink Time": 4.093, 
+            "Tri time": 15.155, 
+            "Scan Time": 13.814
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.4240499573014518, 
+            "Shrink Time": 0.8544395924308587, 
+            "Tri time": 1.1929824561403508, 
+            "Scan Time": 1.1393939393939394
+        }, 
+        "20": {
+            "Proc Time": 26.681, 
+            "Shrink Time": 0.587, 
+            "Tri time": 0.816, 
+            "Scan Time": 1.128
+        }, 
+        "speedup": {
+            "Proc Time": 7.615552946199829, 
+            "Shrink Time": 5.9577874818049485, 
+            "Tri time": 22.15643274853801, 
+            "Scan Time": 13.953535353535354
+        }, 
+        "40": {
+            "Proc Time": 18.736, 
+            "Shrink Time": 0.687, 
+            "Tri time": 0.684, 
+            "Scan Time": 0.99
+        }
+    }, 
+    "snap_livejournal": {
+        "1": {
+            "Proc Time": 54.907, 
+            "Shrink Time": 1.215, 
+            "Tri time": 6.998, 
+            "Scan Time": 2.005
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.3968821045794089, 
+            "Shrink Time": 1.021505376344086, 
+            "Tri time": 1.315112540192926, 
+            "Scan Time": 1.0357142857142856
+        }, 
+        "20": {
+            "Proc Time": 4.301, 
+            "Shrink Time": 0.19, 
+            "Tri time": 0.409, 
+            "Scan Time": 0.174
+        }, 
+        "speedup": {
+            "Proc Time": 17.832737901916204, 
+            "Shrink Time": 6.53225806451613, 
+            "Tri time": 22.5016077170418, 
+            "Scan Time": 11.934523809523808
+        }, 
+        "40": {
+            "Proc Time": 3.079, 
+            "Shrink Time": 0.186, 
+            "Tri time": 0.311, 
+            "Scan Time": 0.168
+        }
+    }, 
+    "webgraph_eu": {
+        "1": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.235289126327795, 
+            "Shrink Time": 0.456039655622228, 
+            "Tri time": 1.0974087268962576, 
+            "Scan Time": 1.168186782074098
+        }, 
+        "20": {
+            "Proc Time": 1484.925, 
+            "Shrink Time": 1.748, 
+            "Tri time": 72.08, 
+            "Scan Time": 115.529
+        }, 
+        "speedup": {
+            "Proc Time": null, 
+            "Shrink Time": null, 
+            "Tri time": null, 
+            "Scan Time": null
+        }, 
+        "40": {
+            "Proc Time": 1202.087, 
+            "Shrink Time": 3.833, 
+            "Tri time": 65.682, 
+            "Scan Time": 98.896
+        }
+    }, 
+    "webgraph_twitter": {
+        "1": {
+            "Proc Time": 9657.033, 
+            "Shrink Time": 56.238, 
+            "Tri time": 1008.637, 
+            "Scan Time": 172.797
+        }, 
+        "hyper-threading-speedup": {
+            "Proc Time": 1.2547060480956522, 
+            "Shrink Time": 1.0162562369225816, 
+            "Tri time": 1.0805616438356165, 
+            "Scan Time": 1.360349915682968
+        }, 
+        "20": {
+            "Proc Time": 512.102, 
+            "Shrink Time": 6.314, 
+            "Tri time": 78.881, 
+            "Scan Time": 12.907
+        }, 
+        "speedup": {
+            "Proc Time": 23.660789670337746, 
+            "Shrink Time": 9.051665861902462, 
+            "Tri time": 13.81694520547945, 
+            "Scan Time": 18.21216273187184
+        }, 
+        "40": {
+            "Proc Time": 408.145, 
+            "Shrink Time": 6.213, 
+            "Tri time": 73.0, 
+            "Scan Time": 9.488
+        }
+    }
+}

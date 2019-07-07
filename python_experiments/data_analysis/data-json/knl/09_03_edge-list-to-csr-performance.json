@@ -1,0 +1,530 @@
+{
+    "snap_pokec": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.099, 
+            "before sort time": 0.183, 
+            "edge list to csr time": 0.301
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.105, 
+            "before sort time": 0.189, 
+            "edge list to csr time": 0.686
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.105, 
+            "before sort time": 0.19, 
+            "edge list to csr time": 0.691
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.103, 
+            "before sort time": 0.192, 
+            "edge list to csr time": 0.305
+        }
+    }, 
+    "small_snap_web_stanford": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.051, 
+            "before sort time": 0.064, 
+            "edge list to csr time": 0.085
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.062, 
+            "before sort time": 0.072, 
+            "edge list to csr time": 0.196
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.056, 
+            "before sort time": 0.06, 
+            "edge list to csr time": 0.171
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.062, 
+            "before sort time": 0.066, 
+            "edge list to csr time": 0.098
+        }
+    }, 
+    "n25_m40_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 2.596, 
+            "before sort time": 8.399, 
+            "edge list to csr time": 10.453
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 2.649, 
+            "before sort time": 8.443, 
+            "edge list to csr time": 14.881
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.678, 
+            "before sort time": 8.536, 
+            "edge list to csr time": 14.482
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 2.596, 
+            "before sort time": 8.392, 
+            "edge list to csr time": 11.235
+        }
+    }, 
+    "lfr_dataset": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.411, 
+            "before sort time": 1.153, 
+            "edge list to csr time": 1.459
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.421, 
+            "before sort time": 1.141, 
+            "edge list to csr time": 2.194
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.426, 
+            "before sort time": 1.184, 
+            "edge list to csr time": 2.099
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.434, 
+            "before sort time": 1.124, 
+            "edge list to csr time": 1.422
+        }
+    }, 
+    "small_snap_web_notredame": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.061, 
+            "before sort time": 0.068, 
+            "edge list to csr time": 0.092
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.065, 
+            "before sort time": 0.072, 
+            "edge list to csr time": 0.188
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.062, 
+            "before sort time": 0.069, 
+            "edge list to csr time": 0.181
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.061, 
+            "before sort time": 0.069, 
+            "edge list to csr time": 0.093
+        }
+    }, 
+    "lfr_graphs/n6000000_k40_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.423, 
+            "before sort time": 1.195, 
+            "edge list to csr time": 1.709
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.417, 
+            "before sort time": 1.208, 
+            "edge list to csr time": 2.63
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.454, 
+            "before sort time": 1.232, 
+            "edge list to csr time": 2.538
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.423, 
+            "before sort time": 1.174, 
+            "edge list to csr time": 1.686
+        }
+    }, 
+    "n50_m20_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 2.456, 
+            "before sort time": 8.342, 
+            "edge list to csr time": 11.94
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 2.525, 
+            "before sort time": 8.488, 
+            "edge list to csr time": 18.328
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.551, 
+            "before sort time": 8.543, 
+            "edge list to csr time": 17.015
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 2.42, 
+            "before sort time": 8.212, 
+            "edge list to csr time": 13.719
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.422, 
+            "before sort time": 1.2, 
+            "edge list to csr time": 1.592
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.435, 
+            "before sort time": 1.213, 
+            "edge list to csr time": 2.15
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.427, 
+            "before sort time": 1.192, 
+            "edge list to csr time": 2.241
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.439, 
+            "before sort time": 1.153, 
+            "edge list to csr time": 1.524
+        }
+    }, 
+    "webgraph_twitter": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 2.822, 
+            "before sort time": 6.953, 
+            "edge list to csr time": 10.494
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 2.832, 
+            "before sort time": 7.108, 
+            "edge list to csr time": 16.313
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.897, 
+            "before sort time": 7.09, 
+            "edge list to csr time": 14.942
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 2.805, 
+            "before sort time": 7.033, 
+            "edge list to csr time": 12.199
+        }
+    }, 
+    "n16dot7_m60_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 2.745, 
+            "before sort time": 8.385, 
+            "edge list to csr time": 10.023
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 2.742, 
+            "before sort time": 8.409, 
+            "edge list to csr time": 13.521
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.793, 
+            "before sort time": 8.427, 
+            "edge list to csr time": 13.491
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 2.742, 
+            "before sort time": 8.376, 
+            "edge list to csr time": 10.051
+        }
+    }, 
+    "webgraph_uk": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.23, 
+            "before sort time": 0.693, 
+            "edge list to csr time": 2.059
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.276, 
+            "before sort time": 0.734, 
+            "edge list to csr time": 3.304
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.259, 
+            "before sort time": 0.721, 
+            "edge list to csr time": 3.369
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.226, 
+            "before sort time": 0.69, 
+            "edge list to csr time": 2.071
+        }
+    }, 
+    "snap_livejournal": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.142, 
+            "before sort time": 0.301, 
+            "edge list to csr time": 0.584
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.149, 
+            "before sort time": 0.313, 
+            "edge list to csr time": 1.253
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.149, 
+            "before sort time": 0.314, 
+            "edge list to csr time": 1.128
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.15, 
+            "before sort time": 0.314, 
+            "edge list to csr time": 0.755
+        }
+    }, 
+    "small_snap_web_berkstan": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.056, 
+            "before sort time": 0.068, 
+            "edge list to csr time": 0.117
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.063, 
+            "before sort time": 0.08, 
+            "edge list to csr time": 0.295
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.064, 
+            "before sort time": 0.076, 
+            "edge list to csr time": 0.262
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.063, 
+            "before sort time": 0.079, 
+            "edge list to csr time": 0.155
+        }
+    }, 
+    "snap_orkut": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.354, 
+            "before sort time": 0.936, 
+            "edge list to csr time": 1.204
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.372, 
+            "before sort time": 0.961, 
+            "edge list to csr time": 1.958
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.37, 
+            "before sort time": 0.968, 
+            "edge list to csr time": 1.979
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.375, 
+            "before sort time": 0.945, 
+            "edge list to csr time": 1.206
+        }
+    }, 
+    "lfr_graphs/n2400000_k100_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.415, 
+            "before sort time": 1.119, 
+            "edge list to csr time": 1.384
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.436, 
+            "before sort time": 1.138, 
+            "edge list to csr time": 1.938
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.421, 
+            "before sort time": 1.136, 
+            "edge list to csr time": 1.913
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.42, 
+            "before sort time": 1.149, 
+            "edge list to csr time": 1.389
+        }
+    }, 
+    "webgraph_webbase": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.721, 
+            "before sort time": 2.333, 
+            "edge list to csr time": 11.066
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.98, 
+            "before sort time": 2.618, 
+            "edge list to csr time": 22.557
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.976, 
+            "before sort time": 2.554, 
+            "edge list to csr time": 17.912
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.747, 
+            "before sort time": 2.4, 
+            "edge list to csr time": 15.484
+        }
+    }, 
+    "snap_friendster": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 4.102, 
+            "before sort time": 15.05, 
+            "edge list to csr time": 23.819
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 4.203, 
+            "before sort time": 15.077, 
+            "edge list to csr time": 36.926
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 4.307, 
+            "before sort time": 15.284, 
+            "edge list to csr time": 37.263
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 4.003, 
+            "before sort time": 14.624, 
+            "edge list to csr time": 23.11
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot1_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.434, 
+            "before sort time": 1.167, 
+            "edge list to csr time": 1.535
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.44, 
+            "before sort time": 1.16, 
+            "edge list to csr time": 2.166
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.423, 
+            "before sort time": 1.172, 
+            "edge list to csr time": 2.266
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.42, 
+            "before sort time": 1.149, 
+            "edge list to csr time": 1.519
+        }
+    }, 
+    "small_snap_dblp": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.056, 
+            "before sort time": 0.064, 
+            "edge list to csr time": 0.094
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.063, 
+            "before sort time": 0.071, 
+            "edge list to csr time": 0.219
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.062, 
+            "before sort time": 0.086, 
+            "edge list to csr time": 0.302
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.064, 
+            "before sort time": 0.072, 
+            "edge list to csr time": 0.103
+        }
+    }, 
+    "lfr_graphs/n3000000_k80_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.422, 
+            "before sort time": 1.141, 
+            "edge list to csr time": 1.433
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.441, 
+            "before sort time": 1.141, 
+            "edge list to csr time": 2.03
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.421, 
+            "before sort time": 1.154, 
+            "edge list to csr time": 1.97
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.409, 
+            "before sort time": 1.148, 
+            "edge list to csr time": 1.454
+        }
+    }, 
+    "webgraph_it": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 1.819, 
+            "before sort time": 5.088, 
+            "edge list to csr time": 8.394
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 2.051, 
+            "before sort time": 5.395, 
+            "edge list to csr time": 11.975
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.049, 
+            "before sort time": 5.182, 
+            "edge list to csr time": 12.002
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 1.814, 
+            "before sort time": 4.953, 
+            "edge list to csr time": 8.244
+        }
+    }, 
+    "n12dot5_m80_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 2.83, 
+            "before sort time": 8.349, 
+            "edge list to csr time": 9.793
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 2.834, 
+            "before sort time": 8.428, 
+            "edge list to csr time": 13.402
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.846, 
+            "before sort time": 8.485, 
+            "edge list to csr time": 13.307
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 2.823, 
+            "before sort time": 8.386, 
+            "edge list to csr time": 9.836
+        }
+    }, 
+    "small_snap_cit_patents": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.068, 
+            "before sort time": 0.077, 
+            "edge list to csr time": 0.346
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.067, 
+            "before sort time": 0.077, 
+            "edge list to csr time": 0.965
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.066, 
+            "before sort time": 0.077, 
+            "edge list to csr time": 0.812
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.07, 
+            "before sort time": 0.082, 
+            "edge list to csr time": 0.499
+        }
+    }, 
+    "webgraph_eu": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.393, 
+            "before sort time": 1.136, 
+            "edge list to csr time": 2.374
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending_hbw": {
+            "before csr transform time": 0.407, 
+            "before sort time": 1.185, 
+            "edge list to csr time": 3.206
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.409, 
+            "before sort time": 1.159, 
+            "edge list to csr time": 3.242
+        }, 
+        "edge_list_to_csr_performance_measure_hbw": {
+            "before csr transform time": 0.4, 
+            "before sort time": 1.17, 
+            "edge list to csr time": 2.397
+        }
+    }
+}

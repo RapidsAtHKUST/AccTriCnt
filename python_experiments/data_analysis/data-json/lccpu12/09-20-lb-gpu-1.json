@@ -1,0 +1,2850 @@
+{
+    "webgraph_webbase/rev_deg": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 46.637, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,145,292", 
+                    "time": 52.308
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,603,492", 
+                    "time": 0.737
+                }, 
+                "CPU corountine time": 2.661, 
+                "CUDA driver and malloc cost": 2.0971520000000012, 
+                "Step4 - prepare results": {
+                    "mem": "13,145,292", 
+                    "time": 2.715
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,553,452", 
+                    "time": 49.609
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,632,628", 
+                    "time": 0.977
+                }, 
+                "CUDA Kernel Time": 44.539848, 
+                "bin-search cost": {
+                    "mem": "10,723,228", 
+                    "time": 1.322
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,096,284", 
+                    "time": 0.426
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,014,948", 
+                    "time": 1.646
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,990,080", 
+                    "time": 1.634
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 11.6, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,143,744", 
+                    "time": 30.376
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,603,600", 
+                    "time": 0.609
+                }, 
+                "CPU corountine time": 2.382, 
+                "CUDA driver and malloc cost": 1.8801640000000006, 
+                "Step4 - prepare results": {
+                    "mem": "13,143,740", 
+                    "time": 2.682
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,602,160", 
+                    "time": 13.743
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,634,856", 
+                    "time": 0.65
+                }, 
+                "CUDA Kernel Time": 9.719835999999999, 
+                "bin-search cost": {
+                    "mem": "10,784,160", 
+                    "time": 0.888
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,095,492", 
+                    "time": 0.411
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,063,656", 
+                    "time": 1.252
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,992,016", 
+                    "time": 1.367
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 16.221, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,145,904", 
+                    "time": 33.516
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,595,328", 
+                    "time": 0.618
+                }, 
+                "CPU corountine time": 2.346, 
+                "CUDA driver and malloc cost": 3.5973930000000003, 
+                "Step4 - prepare results": {
+                    "mem": "13,145,904", 
+                    "time": 2.994
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,592,612", 
+                    "time": 18.614
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,632,700", 
+                    "time": 0.926
+                }, 
+                "CUDA Kernel Time": 12.623607, 
+                "bin-search cost": {
+                    "mem": "10,714,972", 
+                    "time": 1.037
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,094,296", 
+                    "time": 0.413
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,054,108", 
+                    "time": 1.277
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,993,012", 
+                    "time": 2.882
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 14.597, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,118,972", 
+                    "time": 43.439
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,593,248", 
+                    "time": 0.641
+                }, 
+                "CPU corountine time": 2.999, 
+                "CUDA driver and malloc cost": 2.0959889999999994, 
+                "Step4 - prepare results": {
+                    "mem": "13,118,972", 
+                    "time": 3.396
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,521,096", 
+                    "time": 16.928
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,600,856", 
+                    "time": 0.639
+                }, 
+                "CUDA Kernel Time": 12.501011, 
+                "bin-search cost": {
+                    "mem": "10,798,428", 
+                    "time": 1.043
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,061,700", 
+                    "time": 0.311
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,982,592", 
+                    "time": 1.284
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,994,220", 
+                    "time": 1.518
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 50.243, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,134,120", 
+                    "time": 48.085
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,603,492", 
+                    "time": 0.648
+                }, 
+                "CPU corountine time": 2.427, 
+                "CUDA driver and malloc cost": 1.7682339999999996, 
+                "Step4 - prepare results": {
+                    "mem": "13,134,120", 
+                    "time": 3.344
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,600,752", 
+                    "time": 53.118
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,615,156", 
+                    "time": 0.78
+                }, 
+                "CUDA Kernel Time": 48.474766, 
+                "bin-search cost": {
+                    "mem": "10,732,744", 
+                    "time": 1.396
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,085,192", 
+                    "time": 0.514
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,062,248", 
+                    "time": 1.475
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,994,100", 
+                    "time": 1.31
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 46.201, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,124,132", 
+                    "time": 31.354
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,593,248", 
+                    "time": 0.589
+                }, 
+                "CPU corountine time": 2.287, 
+                "CUDA driver and malloc cost": 2.597926000000001, 
+                "Step4 - prepare results": {
+                    "mem": "13,124,132", 
+                    "time": 2.482
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,524,140", 
+                    "time": 47.989
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,607,972", 
+                    "time": 0.638
+                }, 
+                "CUDA Kernel Time": 43.603074, 
+                "bin-search cost": {
+                    "mem": "10,600,428", 
+                    "time": 0.704
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,069,576", 
+                    "time": 0.303
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,985,636", 
+                    "time": 1.016
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,973,800", 
+                    "time": 1.859
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 12.032, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,130,724", 
+                    "time": 34.644
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,613,824", 
+                    "time": 0.624
+                }, 
+                "CPU corountine time": 2.345, 
+                "CUDA driver and malloc cost": 2.1784689999999998, 
+                "Step4 - prepare results": {
+                    "mem": "13,130,720", 
+                    "time": 2.682
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,591,648", 
+                    "time": 14.268
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,614,968", 
+                    "time": 0.775
+                }, 
+                "CUDA Kernel Time": 9.853531, 
+                "bin-search cost": {
+                    "mem": "10,709,612", 
+                    "time": 0.901
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,076,564", 
+                    "time": 0.417
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,053,140", 
+                    "time": 1.26
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,993,816", 
+                    "time": 1.397
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 51.366, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,133,728", 
+                    "time": 34.215
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,593,252", 
+                    "time": 0.785
+                }, 
+                "CPU corountine time": 2.763, 
+                "CUDA driver and malloc cost": 2.011054999999999, 
+                "Step4 - prepare results": {
+                    "mem": "13,133,728", 
+                    "time": 3.162
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,593,024", 
+                    "time": 54.325
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,611,116", 
+                    "time": 0.736
+                }, 
+                "CUDA Kernel Time": 49.354945, 
+                "bin-search cost": {
+                    "mem": "10,749,192", 
+                    "time": 1.372
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,087,412", 
+                    "time": 0.298
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,054,520", 
+                    "time": 1.58
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,991,836", 
+                    "time": 1.554
+                }
+            }
+        }
+    }, 
+    "webgraph_webbase": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 10.976, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,931,028", 
+                    "time": 28.19
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,588,004", 
+                    "time": 0.156
+                }, 
+                "CPU corountine time": 0.839, 
+                "CUDA driver and malloc cost": 1.2548709999999996, 
+                "Step4 - prepare results": {
+                    "mem": "13,930,940", 
+                    "time": 0.972
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,511,944", 
+                    "time": 11.957
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,638,436", 
+                    "time": 0.574
+                }, 
+                "CUDA Kernel Time": 9.721129000000001, 
+                "bin-search cost": {
+                    "mem": "10,868,908", 
+                    "time": 0.556
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,100,056", 
+                    "time": 0.241
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,973,440", 
+                    "time": 0.421
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,764,480", 
+                    "time": 0.862
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 88.896, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,973,852", 
+                    "time": 27.733
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,577,200", 
+                    "time": 0.164
+                }, 
+                "CPU corountine time": 0.912, 
+                "CUDA driver and malloc cost": 1.3195620000000048, 
+                "Step4 - prepare results": {
+                    "mem": "13,973,772", 
+                    "time": 1.028
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,474,012", 
+                    "time": 89.87
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,640,680", 
+                    "time": 0.547
+                }, 
+                "CUDA Kernel Time": 87.576438, 
+                "bin-search cost": {
+                    "mem": "10,878,852", 
+                    "time": 0.529
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,102,300", 
+                    "time": 0.239
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,935,508", 
+                    "time": 0.441
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,815,996", 
+                    "time": 0.922
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 10.471, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,976,032", 
+                    "time": 29.614
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,580,884", 
+                    "time": 0.163
+                }, 
+                "CPU corountine time": 0.819, 
+                "CUDA driver and malloc cost": 1.25319, 
+                "Step4 - prepare results": {
+                    "mem": "13,976,032", 
+                    "time": 1.046
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,461,140", 
+                    "time": 11.425
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,642,368", 
+                    "time": 0.599
+                }, 
+                "CUDA Kernel Time": 9.21781, 
+                "bin-search cost": {
+                    "mem": "10,878,456", 
+                    "time": 0.537
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,103,916", 
+                    "time": 0.24
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,922,636", 
+                    "time": 0.412
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,743,908", 
+                    "time": 0.862
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 10.921, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,934,864", 
+                    "time": 28.259
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,567,428", 
+                    "time": 0.166
+                }, 
+                "CPU corountine time": 0.88, 
+                "CUDA driver and malloc cost": 1.373804999999999, 
+                "Step4 - prepare results": {
+                    "mem": "13,934,784", 
+                    "time": 1.012
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,483,676", 
+                    "time": 11.897
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,640,040", 
+                    "time": 0.559
+                }, 
+                "CUDA Kernel Time": 9.547195, 
+                "bin-search cost": {
+                    "mem": "10,864,228", 
+                    "time": 0.541
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,101,656", 
+                    "time": 0.239
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,945,172", 
+                    "time": 0.432
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,774,824", 
+                    "time": 0.982
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 10.977, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,972,464", 
+                    "time": 28.119
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,589,324", 
+                    "time": 0.156
+                }, 
+                "CPU corountine time": 0.845, 
+                "CUDA driver and malloc cost": 1.4458430000000018, 
+                "Step4 - prepare results": {
+                    "mem": "13,972,360", 
+                    "time": 1.004
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,495,804", 
+                    "time": 11.968
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,637,440", 
+                    "time": 0.567
+                }, 
+                "CUDA Kernel Time": 9.531156999999999, 
+                "bin-search cost": {
+                    "mem": "10,866,808", 
+                    "time": 0.561
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,098,540", 
+                    "time": 0.239
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,957,300", 
+                    "time": 0.426
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,762,764", 
+                    "time": 0.929
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 10.823, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,975,688", 
+                    "time": 27.844
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,580,988", 
+                    "time": 0.183
+                }, 
+                "CPU corountine time": 0.838, 
+                "CUDA driver and malloc cost": 1.284548000000001, 
+                "Step4 - prepare results": {
+                    "mem": "13,975,640", 
+                    "time": 1.015
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,473,748", 
+                    "time": 11.88
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,619,316", 
+                    "time": 0.585
+                }, 
+                "CUDA Kernel Time": 9.538452, 
+                "bin-search cost": {
+                    "mem": "10,848,184", 
+                    "time": 0.546
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,083,512", 
+                    "time": 0.241
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,935,244", 
+                    "time": 0.505
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,794,092", 
+                    "time": 0.885
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 88.801, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,972,600", 
+                    "time": 28.283
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,634,288", 
+                    "time": 0.18
+                }, 
+                "CPU corountine time": 0.816, 
+                "CUDA driver and malloc cost": 1.2866560000000078, 
+                "Step4 - prepare results": {
+                    "mem": "13,972,444", 
+                    "time": 0.947
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,511,132", 
+                    "time": 89.753
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,637,984", 
+                    "time": 0.55
+                }, 
+                "CUDA Kernel Time": 87.514344, 
+                "bin-search cost": {
+                    "mem": "10,834,856", 
+                    "time": 0.516
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,099,604", 
+                    "time": 0.239
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,972,624", 
+                    "time": 0.432
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,728,108", 
+                    "time": 0.895
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 10.938, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,970,512", 
+                    "time": 28.188
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,587,492", 
+                    "time": 0.156
+                }, 
+                "CPU corountine time": 0.893, 
+                "CUDA driver and malloc cost": 1.282324000000001, 
+                "Step4 - prepare results": {
+                    "mem": "13,970,288", 
+                    "time": 0.959
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,525,820", 
+                    "time": 11.914
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,638,248", 
+                    "time": 0.564
+                }, 
+                "CUDA Kernel Time": 9.655676, 
+                "bin-search cost": {
+                    "mem": "10,873,936", 
+                    "time": 0.554
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,099,864", 
+                    "time": 0.239
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,987,316", 
+                    "time": 0.418
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,812,332", 
+                    "time": 0.886
+                }
+            }
+        }
+    }, 
+    "webgraph_twitter": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 576.392, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,320,664", 
+                    "time": 3.083
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,942,412", 
+                    "time": 0.471
+                }, 
+                "CPU corountine time": 7.173, 
+                "CUDA driver and malloc cost": 1.3105000000000473, 
+                "Step4 - prepare results": {
+                    "mem": "13,320,664", 
+                    "time": 0.873
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,850,952", 
+                    "time": 578.59
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,951,620", 
+                    "time": 0.881
+                }, 
+                "CUDA Kernel Time": 575.0815, 
+                "bin-search cost": {
+                    "mem": "11,651,240", 
+                    "time": 0.885
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,133,156", 
+                    "time": 0.073
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,013,660", 
+                    "time": 1.309
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,868,200", 
+                    "time": 1.127
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 96.836, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,320,008", 
+                    "time": 3.01
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,938,552", 
+                    "time": 0.451
+                }, 
+                "CPU corountine time": 5.888, 
+                "CUDA driver and malloc cost": 1.4848279999999932, 
+                "Step4 - prepare results": {
+                    "mem": "13,320,008", 
+                    "time": 0.75
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,867,408", 
+                    "time": 99.026
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,947,812", 
+                    "time": 0.896
+                }, 
+                "CUDA Kernel Time": 95.351172, 
+                "bin-search cost": {
+                    "mem": "11,659,180", 
+                    "time": 0.871
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,129,340", 
+                    "time": 0.074
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,030,116", 
+                    "time": 1.315
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,855,028", 
+                    "time": 1.282
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 351.216, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,320,956", 
+                    "time": 2.989
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,892,096", 
+                    "time": 0.465
+                }, 
+                "CPU corountine time": 5.854, 
+                "CUDA driver and malloc cost": 1.43415600000003, 
+                "Step4 - prepare results": {
+                    "mem": "13,320,956", 
+                    "time": 0.845
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,881,392", 
+                    "time": 353.454
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,944,016", 
+                    "time": 0.887
+                }, 
+                "CUDA Kernel Time": 349.781844, 
+                "bin-search cost": {
+                    "mem": "11,665,768", 
+                    "time": 0.883
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,125,548", 
+                    "time": 0.074
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,044,100", 
+                    "time": 1.35
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,912,392", 
+                    "time": 1.259
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 249.9, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,320,760", 
+                    "time": 4.605
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,943,472", 
+                    "time": 0.687
+                }, 
+                "CPU corountine time": 7.356, 
+                "CUDA driver and malloc cost": 2.2671410000000094, 
+                "Step4 - prepare results": {
+                    "mem": "13,320,760", 
+                    "time": 1.123
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,942,864", 
+                    "time": 253.808
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,950,656", 
+                    "time": 1.161
+                }, 
+                "CUDA Kernel Time": 247.632859, 
+                "bin-search cost": {
+                    "mem": "11,688,976", 
+                    "time": 1.936
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,132,168", 
+                    "time": 0.147
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,105,572", 
+                    "time": 1.938
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "12,046,548", 
+                    "time": 1.82
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 957.372, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,320,688", 
+                    "time": 3.069
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,943,464", 
+                    "time": 0.548
+                }, 
+                "CPU corountine time": 5.848, 
+                "CUDA driver and malloc cost": 1.3548749999999927, 
+                "Step4 - prepare results": {
+                    "mem": "13,320,688", 
+                    "time": 0.887
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,887,884", 
+                    "time": 959.626
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,946,948", 
+                    "time": 0.909
+                }, 
+                "CUDA Kernel Time": 956.017125, 
+                "bin-search cost": {
+                    "mem": "11,673,484", 
+                    "time": 0.872
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,128,476", 
+                    "time": 0.073
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,050,592", 
+                    "time": 1.377
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,845,820", 
+                    "time": 1.156
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 583.2, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,320,104", 
+                    "time": 3.08
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,894,908", 
+                    "time": 0.442
+                }, 
+                "CPU corountine time": 5.813, 
+                "CUDA driver and malloc cost": 1.259999999999991, 
+                "Step4 - prepare results": {
+                    "mem": "13,320,104", 
+                    "time": 0.797
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,883,824", 
+                    "time": 585.432
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,943,548", 
+                    "time": 0.893
+                }, 
+                "CUDA Kernel Time": 581.94, 
+                "bin-search cost": {
+                    "mem": "11,642,356", 
+                    "time": 0.887
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,125,080", 
+                    "time": 0.073
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,046,532", 
+                    "time": 1.342
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,910,392", 
+                    "time": 1.078
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 99.28, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,320,356", 
+                    "time": 3.401
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,943,540", 
+                    "time": 0.548
+                }, 
+                "CPU corountine time": 7.345, 
+                "CUDA driver and malloc cost": 3.8244380000000007, 
+                "Step4 - prepare results": {
+                    "mem": "13,320,352", 
+                    "time": 0.984
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,943,328", 
+                    "time": 102.487
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,946,556", 
+                    "time": 1.037
+                }, 
+                "CUDA Kernel Time": 95.455562, 
+                "bin-search cost": {
+                    "mem": "11,713,880", 
+                    "time": 1.443
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,127,992", 
+                    "time": 0.126
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,106,032", 
+                    "time": 1.76
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "12,094,592", 
+                    "time": 3.481
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 962.752, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,321,200", 
+                    "time": 3.85
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,902,424", 
+                    "time": 0.461
+                }, 
+                "CPU corountine time": 5.753, 
+                "CUDA driver and malloc cost": 1.3749379999999292, 
+                "Step4 - prepare results": {
+                    "mem": "13,321,200", 
+                    "time": 0.678
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,878,548", 
+                    "time": 964.963
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,941,804", 
+                    "time": 0.886
+                }, 
+                "CUDA Kernel Time": 961.377062, 
+                "bin-search cost": {
+                    "mem": "11,659,952", 
+                    "time": 0.875
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,123,332", 
+                    "time": 0.073
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,041,256", 
+                    "time": 1.331
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "12,096,552", 
+                    "time": 1.175
+                }
+            }
+        }
+    }, 
+    "snap_friendster": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 94.424, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,383,984", 
+                    "time": 12.021
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,287,916", 
+                    "time": 1.074
+                }, 
+                "CPU corountine time": 26.2, 
+                "CUDA driver and malloc cost": 5.90186700000001, 
+                "Step4 - prepare results": {
+                    "mem": "35,383,908", 
+                    "time": 1.451
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,286,456", 
+                    "time": 107.583
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,288,476", 
+                    "time": 3.399
+                }, 
+                "CUDA Kernel Time": 88.522133, 
+                "bin-search cost": {
+                    "mem": "31,087,472", 
+                    "time": 4.707
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,799,532", 
+                    "time": 0.363
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,774,100", 
+                    "time": 8.36
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,225,228", 
+                    "time": 5.209
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 103.214, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,400,988", 
+                    "time": 10.717
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,283,904", 
+                    "time": 0.895
+                }, 
+                "CPU corountine time": 26.112, 
+                "CUDA driver and malloc cost": 7.3021090000000015, 
+                "Step4 - prepare results": {
+                    "mem": "35,400,876", 
+                    "time": 1.252
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,283,900", 
+                    "time": 113.574
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,284,716", 
+                    "time": 3.18
+                }, 
+                "CUDA Kernel Time": 95.911891, 
+                "bin-search cost": {
+                    "mem": "31,127,584", 
+                    "time": 2.978
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,795,596", 
+                    "time": 0.375
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,771,544", 
+                    "time": 7.323
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,219,196", 
+                    "time": 6.263
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 95.126, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,410,552", 
+                    "time": 9.613
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,285,884", 
+                    "time": 1.086
+                }, 
+                "CPU corountine time": 23.535, 
+                "CUDA driver and malloc cost": 5.668289000000016, 
+                "Step4 - prepare results": {
+                    "mem": "35,410,288", 
+                    "time": 1.151
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,281,184", 
+                    "time": 105.142
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,286,596", 
+                    "time": 3.034
+                }, 
+                "CUDA Kernel Time": 89.45771099999999, 
+                "bin-search cost": {
+                    "mem": "31,148,696", 
+                    "time": 3.136
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,797,648", 
+                    "time": 0.372
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,768,828", 
+                    "time": 6.875
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,223,228", 
+                    "time": 5.184
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 108.575, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,408,520", 
+                    "time": 10.637
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,285,868", 
+                    "time": 0.83
+                }, 
+                "CPU corountine time": 23.024, 
+                "CUDA driver and malloc cost": 5.5076640000000054, 
+                "Step4 - prepare results": {
+                    "mem": "35,408,332", 
+                    "time": 1.097
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,285,408", 
+                    "time": 118.435
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,286,660", 
+                    "time": 2.995
+                }, 
+                "CUDA Kernel Time": 103.067336, 
+                "bin-search cost": {
+                    "mem": "31,048,372", 
+                    "time": 3.063
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,797,752", 
+                    "time": 0.364
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,773,052", 
+                    "time": 6.791
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,223,200", 
+                    "time": 4.998
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 96.136, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,399,672", 
+                    "time": 11.534
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,287,892", 
+                    "time": 0.976
+                }, 
+                "CPU corountine time": 23.886, 
+                "CUDA driver and malloc cost": 6.871608999999992, 
+                "Step4 - prepare results": {
+                    "mem": "35,399,672", 
+                    "time": 1.492
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,285,560", 
+                    "time": 108.789
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,288,432", 
+                    "time": 3.4
+                }, 
+                "CUDA Kernel Time": 89.264391, 
+                "bin-search cost": {
+                    "mem": "31,158,496", 
+                    "time": 4.577
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,799,420", 
+                    "time": 0.368
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,773,204", 
+                    "time": 8.003
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,223,204", 
+                    "time": 6.053
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 104.867, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,380,088", 
+                    "time": 14.613
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,283,812", 
+                    "time": 1.589
+                }, 
+                "CPU corountine time": 26.503, 
+                "CUDA driver and malloc cost": 8.655352000000008, 
+                "Step4 - prepare results": {
+                    "mem": "35,379,984", 
+                    "time": 2.02
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,280,336", 
+                    "time": 120.931
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,284,372", 
+                    "time": 3.729
+                }, 
+                "CUDA Kernel Time": 96.211648, 
+                "bin-search cost": {
+                    "mem": "31,111,140", 
+                    "time": 6.153
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,795,428", 
+                    "time": 0.418
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,767,980", 
+                    "time": 9.823
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,219,116", 
+                    "time": 7.677
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 114.971, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,384,064", 
+                    "time": 10.86
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,285,944", 
+                    "time": 0.9
+                }, 
+                "CPU corountine time": 29.839, 
+                "CUDA driver and malloc cost": 8.504289000000014, 
+                "Step4 - prepare results": {
+                    "mem": "35,384,016", 
+                    "time": 1.302
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,283,176", 
+                    "time": 124.959
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,286,776", 
+                    "time": 3.061
+                }, 
+                "CUDA Kernel Time": 106.46671099999999, 
+                "bin-search cost": {
+                    "mem": "31,140,868", 
+                    "time": 2.965
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,797,720", 
+                    "time": 0.369
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,770,820", 
+                    "time": 7.004
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,221,240", 
+                    "time": 7.471
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 105.641, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,413,856", 
+                    "time": 15.205
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,283,812", 
+                    "time": 1.16
+                }, 
+                "CPU corountine time": 26.259, 
+                "CUDA driver and malloc cost": 5.591797000000014, 
+                "Step4 - prepare results": {
+                    "mem": "35,413,784", 
+                    "time": 1.801
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,281,828", 
+                    "time": 121.086
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,284,360", 
+                    "time": 3.851
+                }, 
+                "CUDA Kernel Time": 100.04920299999999, 
+                "bin-search cost": {
+                    "mem": "31,171,696", 
+                    "time": 6.003
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,795,472", 
+                    "time": 0.415
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,769,472", 
+                    "time": 9.438
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,221,032", 
+                    "time": 5.048
+                }
+            }
+        }
+    }, 
+    "webgraph_it": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 27.243, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,957,620", 
+                    "time": 10.239
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,066,628", 
+                    "time": 0.168
+                }, 
+                "CPU corountine time": 1.035, 
+                "CUDA driver and malloc cost": 0.5323789999999988, 
+                "Step4 - prepare results": {
+                    "mem": "11,957,620", 
+                    "time": 0.443
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,035,816", 
+                    "time": 28.401
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,085,188", 
+                    "time": 0.495
+                }, 
+                "CUDA Kernel Time": 26.710621, 
+                "bin-search cost": {
+                    "mem": "10,043,728", 
+                    "time": 0.655
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,298,956", 
+                    "time": 0.087
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,197,112", 
+                    "time": 0.5
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,243,456", 
+                    "time": 0.369
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 394.908, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,964,296", 
+                    "time": 11.207
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,097,508", 
+                    "time": 0.195
+                }, 
+                "CPU corountine time": 1.3, 
+                "CUDA driver and malloc cost": 0.5840000000000032, 
+                "Step4 - prepare results": {
+                    "mem": "11,964,296", 
+                    "time": 0.465
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,076,892", 
+                    "time": 396.356
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,135,916", 
+                    "time": 0.669
+                }, 
+                "CUDA Kernel Time": 394.324, 
+                "bin-search cost": {
+                    "mem": "10,081,380", 
+                    "time": 0.882
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,334,028", 
+                    "time": 0.08
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,238,188", 
+                    "time": 0.563
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,273,112", 
+                    "time": 0.41
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 23.709, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,967,364", 
+                    "time": 11.466
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,101,184", 
+                    "time": 0.184
+                }, 
+                "CPU corountine time": 1.235, 
+                "CUDA driver and malloc cost": 0.595761999999997, 
+                "Step4 - prepare results": {
+                    "mem": "11,967,364", 
+                    "time": 0.426
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,084,588", 
+                    "time": 25.176
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,118,580", 
+                    "time": 0.59
+                }, 
+                "CUDA Kernel Time": 23.113238000000003, 
+                "bin-search cost": {
+                    "mem": "10,075,440", 
+                    "time": 0.857
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,311,520", 
+                    "time": 0.081
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,245,884", 
+                    "time": 0.606
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,234,056", 
+                    "time": 0.411
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 23.617, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,909,656", 
+                    "time": 11.784
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,116,924", 
+                    "time": 0.197
+                }, 
+                "CPU corountine time": 1.263, 
+                "CUDA driver and malloc cost": 0.9207520000000002, 
+                "Step4 - prepare results": {
+                    "mem": "11,909,412", 
+                    "time": 0.621
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,100,752", 
+                    "time": 25.103
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,151,292", 
+                    "time": 0.606
+                }, 
+                "CUDA Kernel Time": 22.696248, 
+                "bin-search cost": {
+                    "mem": "10,086,956", 
+                    "time": 0.909
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,344,224", 
+                    "time": 0.098
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,262,048", 
+                    "time": 0.571
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,249,388", 
+                    "time": 0.666
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 26.632, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,940,432", 
+                    "time": 10.791
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,127,020", 
+                    "time": 0.165
+                }, 
+                "CPU corountine time": 1.027, 
+                "CUDA driver and malloc cost": 0.5309790000000021, 
+                "Step4 - prepare results": {
+                    "mem": "11,940,432", 
+                    "time": 0.453
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,109,588", 
+                    "time": 27.75
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,142,572", 
+                    "time": 0.522
+                }, 
+                "CUDA Kernel Time": 26.101021, 
+                "bin-search cost": {
+                    "mem": "10,040,888", 
+                    "time": 0.655
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,335,512", 
+                    "time": 0.085
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,270,884", 
+                    "time": 0.46
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,198,996", 
+                    "time": 0.369
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 27.105, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,961,036", 
+                    "time": 11.757
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,099,332", 
+                    "time": 0.19
+                }, 
+                "CPU corountine time": 1.292, 
+                "CUDA driver and malloc cost": 0.5656390000000009, 
+                "Step4 - prepare results": {
+                    "mem": "11,961,036", 
+                    "time": 0.43
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,083,960", 
+                    "time": 28.613
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,113,916", 
+                    "time": 0.677
+                }, 
+                "CUDA Kernel Time": 26.539361, 
+                "bin-search cost": {
+                    "mem": "10,080,920", 
+                    "time": 0.89
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,321,832", 
+                    "time": 0.081
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,245,256", 
+                    "time": 0.614
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,297,132", 
+                    "time": 0.407
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 396.268, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,966,076", 
+                    "time": 11.147
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,145,792", 
+                    "time": 0.217
+                }, 
+                "CPU corountine time": 1.284, 
+                "CUDA driver and malloc cost": 0.6959059999999795, 
+                "Step4 - prepare results": {
+                    "mem": "11,966,076", 
+                    "time": 0.577
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,140,240", 
+                    "time": 397.75
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,149,748", 
+                    "time": 0.64
+                }, 
+                "CUDA Kernel Time": 395.572094, 
+                "bin-search cost": {
+                    "mem": "10,089,616", 
+                    "time": 0.888
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,342,684", 
+                    "time": 0.082
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,301,532", 
+                    "time": 0.591
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,299,988", 
+                    "time": 0.476
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 28.124, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,923,832", 
+                    "time": 11.476
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,117,896", 
+                    "time": 0.167
+                }, 
+                "CPU corountine time": 0.997, 
+                "CUDA driver and malloc cost": 0.5333110000000012, 
+                "Step4 - prepare results": {
+                    "mem": "11,923,832", 
+                    "time": 0.52
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,108,520", 
+                    "time": 29.246
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,131,880", 
+                    "time": 0.505
+                }, 
+                "CUDA Kernel Time": 27.590688999999998, 
+                "bin-search cost": {
+                    "mem": "10,039,732", 
+                    "time": 0.662
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,324,816", 
+                    "time": 0.1
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,269,816", 
+                    "time": 0.457
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,266,524", 
+                    "time": 0.373
+                }
+            }
+        }
+    }, 
+    "webgraph_it/rev_deg": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 213.218, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,897,224", 
+                    "time": 14.603
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,142,972", 
+                    "time": 0.546
+                }, 
+                "CPU corountine time": 2.596, 
+                "CUDA driver and malloc cost": 0.8600469999999802, 
+                "Step4 - prepare results": {
+                    "mem": "11,896,996", 
+                    "time": 2.698
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,100,404", 
+                    "time": 215.734
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,145,504", 
+                    "time": 0.672
+                }, 
+                "CUDA Kernel Time": 212.357953, 
+                "bin-search cost": {
+                    "mem": "10,000,024", 
+                    "time": 1.221
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,338,228", 
+                    "time": 0.122
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,261,700", 
+                    "time": 1.291
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,366,348", 
+                    "time": 0.682
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 8.721, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,899,056", 
+                    "time": 11.916
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,121,092", 
+                    "time": 0.514
+                }, 
+                "CPU corountine time": 2.929, 
+                "CUDA driver and malloc cost": 1.52414, 
+                "Step4 - prepare results": {
+                    "mem": "11,898,856", 
+                    "time": 2.655
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,103,228", 
+                    "time": 11.534
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,134,732", 
+                    "time": 0.811
+                }, 
+                "CUDA Kernel Time": 7.19686, 
+                "bin-search cost": {
+                    "mem": "9,988,144", 
+                    "time": 1.412
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,327,584", 
+                    "time": 0.12
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,264,524", 
+                    "time": 1.39
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,293,592", 
+                    "time": 1.167
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 51.977, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,901,896", 
+                    "time": 10.958
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,151,000", 
+                    "time": 0.384
+                }, 
+                "CPU corountine time": 2.142, 
+                "CUDA driver and malloc cost": 0.844069999999995, 
+                "Step4 - prepare results": {
+                    "mem": "11,901,780", 
+                    "time": 1.909
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,087,864", 
+                    "time": 53.551
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,151,512", 
+                    "time": 0.516
+                }, 
+                "CUDA Kernel Time": 51.13293, 
+                "bin-search cost": {
+                    "mem": "9,932,228", 
+                    "time": 0.713
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,344,460", 
+                    "time": 0.089
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,249,160", 
+                    "time": 0.858
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,358,396", 
+                    "time": 0.679
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 46.595, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,857,204", 
+                    "time": 11.685
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,011,048", 
+                    "time": 0.364
+                }, 
+                "CPU corountine time": 2.161, 
+                "CUDA driver and malloc cost": 0.8895509999999973, 
+                "Step4 - prepare results": {
+                    "mem": "11,856,988", 
+                    "time": 2.085
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,000,864", 
+                    "time": 48.127
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,060,844", 
+                    "time": 0.499
+                }, 
+                "CUDA Kernel Time": 45.705449, 
+                "bin-search cost": {
+                    "mem": "9,952,396", 
+                    "time": 0.72
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,288,236", 
+                    "time": 0.127
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,162,160", 
+                    "time": 0.809
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,384,936", 
+                    "time": 0.72
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 227.077, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,900,004", 
+                    "time": 16.646
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,125,204", 
+                    "time": 0.513
+                }, 
+                "CPU corountine time": 2.199, 
+                "CUDA driver and malloc cost": 0.8406559999999956, 
+                "Step4 - prepare results": {
+                    "mem": "11,900,004", 
+                    "time": 2.315
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,124,520", 
+                    "time": 229.671
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,137,396", 
+                    "time": 0.736
+                }, 
+                "CUDA Kernel Time": 226.236344, 
+                "bin-search cost": {
+                    "mem": "10,048,876", 
+                    "time": 1.319
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,330,336", 
+                    "time": 0.098
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,285,816", 
+                    "time": 1.272
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,370,876", 
+                    "time": 0.67
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 213.941, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,895,416", 
+                    "time": 11.176
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,003,524", 
+                    "time": 0.4
+                }, 
+                "CPU corountine time": 2.587, 
+                "CUDA driver and malloc cost": 1.0317969999999832, 
+                "Step4 - prepare results": {
+                    "mem": "11,895,416", 
+                    "time": 1.96
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "10,946,036", 
+                    "time": 215.498
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,126,908", 
+                    "time": 0.517
+                }, 
+                "CUDA Kernel Time": 212.90920300000002, 
+                "bin-search cost": {
+                    "mem": "9,881,876", 
+                    "time": 0.724
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,319,848", 
+                    "time": 0.089
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,107,332", 
+                    "time": 0.83
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,363,408", 
+                    "time": 0.851
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 6.841, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,856,480", 
+                    "time": 11.328
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,011,364", 
+                    "time": 0.362
+                }, 
+                "CPU corountine time": 2.175, 
+                "CUDA driver and malloc cost": 0.8480050000000006, 
+                "Step4 - prepare results": {
+                    "mem": "11,856,480", 
+                    "time": 2.141
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "10,968,464", 
+                    "time": 8.423
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,050,620", 
+                    "time": 0.506
+                }, 
+                "CUDA Kernel Time": 5.992995, 
+                "bin-search cost": {
+                    "mem": "9,928,448", 
+                    "time": 0.719
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,254,072", 
+                    "time": 0.093
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,129,756", 
+                    "time": 0.859
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,346,408", 
+                    "time": 0.682
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 227.312, 
+                "Step4 - output to the disk cost": {
+                    "mem": "11,881,080", 
+                    "time": 10.756
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,123,192", 
+                    "time": 0.358
+                }, 
+                "CPU corountine time": 3.641, 
+                "CUDA driver and malloc cost": 1.0620000000000118, 
+                "Step4 - prepare results": {
+                    "mem": "11,881,080", 
+                    "time": 2.372
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,117,388", 
+                    "time": 228.788
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,132,184", 
+                    "time": 0.505
+                }, 
+                "CUDA Kernel Time": 226.25, 
+                "bin-search cost": {
+                    "mem": "10,011,992", 
+                    "time": 0.706
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,325,120", 
+                    "time": 0.086
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,278,684", 
+                    "time": 0.767
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "10,431,188", 
+                    "time": 0.884
+                }
+            }
+        }
+    }, 
+    "snap_friendster/rev_deg": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 84.708, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,331,680", 
+                    "time": 10.948
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,070,820", 
+                    "time": 1.236
+                }, 
+                "CPU corountine time": 27.325, 
+                "CUDA driver and malloc cost": 6.0944689999999895, 
+                "Step4 - prepare results": {
+                    "mem": "35,331,596", 
+                    "time": 3.369
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,070,348", 
+                    "time": 95.843
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,210,652", 
+                    "time": 2.862
+                }, 
+                "CUDA Kernel Time": 78.61353100000001, 
+                "bin-search cost": {
+                    "mem": "30,682,520", 
+                    "time": 4.676
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,725,764", 
+                    "time": 0.298
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,557,992", 
+                    "time": 6.444
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,200,152", 
+                    "time": 5.0
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 101.976, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,381,476", 
+                    "time": 10.723
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,062,732", 
+                    "time": 0.883
+                }, 
+                "CPU corountine time": 28.561, 
+                "CUDA driver and malloc cost": 6.241133000000005, 
+                "Step4 - prepare results": {
+                    "mem": "35,381,316", 
+                    "time": 3.414
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,060,728", 
+                    "time": 112.364
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,278,584", 
+                    "time": 2.731
+                }, 
+                "CUDA Kernel Time": 95.734867, 
+                "bin-search cost": {
+                    "mem": "30,936,072", 
+                    "time": 4.046
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,789,500", 
+                    "time": 0.238
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,548,372", 
+                    "time": 6.337
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,217,152", 
+                    "time": 5.493
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 93.349, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,382,440", 
+                    "time": 10.166
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,064,688", 
+                    "time": 0.891
+                }, 
+                "CPU corountine time": 22.091, 
+                "CUDA driver and malloc cost": 6.556656000000004, 
+                "Step4 - prepare results": {
+                    "mem": "35,382,200", 
+                    "time": 3.332
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,063,340", 
+                    "time": 102.097
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,280,452", 
+                    "time": 2.434
+                }, 
+                "CUDA Kernel Time": 86.792344, 
+                "bin-search cost": {
+                    "mem": "30,896,532", 
+                    "time": 3.129
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,791,540", 
+                    "time": 0.448
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,550,984", 
+                    "time": 5.546
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,219,144", 
+                    "time": 5.765
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 97.991, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,351,664", 
+                    "time": 14.49
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,068,784", 
+                    "time": 1.127
+                }, 
+                "CPU corountine time": 26.751, 
+                "CUDA driver and malloc cost": 7.882741999999993, 
+                "Step4 - prepare results": {
+                    "mem": "35,351,628", 
+                    "time": 3.688
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,067,556", 
+                    "time": 109.136
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,233,320", 
+                    "time": 2.87
+                }, 
+                "CUDA Kernel Time": 90.108258, 
+                "bin-search cost": {
+                    "mem": "29,710,752", 
+                    "time": 4.578
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,684", 
+                    "time": 0.282
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,555,200", 
+                    "time": 6.563
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,221,176", 
+                    "time": 7.03
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 90.963, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,379,688", 
+                    "time": 10.652
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,066,708", 
+                    "time": 1.086
+                }, 
+                "CPU corountine time": 21.544, 
+                "CUDA driver and malloc cost": 5.528374999999997, 
+                "Step4 - prepare results": {
+                    "mem": "35,379,472", 
+                    "time": 2.871
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,065,140", 
+                    "time": 99.553
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,282,412", 
+                    "time": 2.41
+                }, 
+                "CUDA Kernel Time": 85.434625, 
+                "bin-search cost": {
+                    "mem": "30,887,668", 
+                    "time": 3.215
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,793,524", 
+                    "time": 0.413
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,552,784", 
+                    "time": 5.297
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,196,560", 
+                    "time": 4.573
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 91.899, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,374,688", 
+                    "time": 10.119
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,068,776", 
+                    "time": 1.144
+                }, 
+                "CPU corountine time": 21.74, 
+                "CUDA driver and malloc cost": 4.841289000000003, 
+                "Step4 - prepare results": {
+                    "mem": "35,374,496", 
+                    "time": 2.904
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,068,376", 
+                    "time": 100.475
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,255,792", 
+                    "time": 3.111
+                }, 
+                "CUDA Kernel Time": 87.057711, 
+                "bin-search cost": {
+                    "mem": "30,609,024", 
+                    "time": 3.337
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,766,856", 
+                    "time": 0.377
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,556,020", 
+                    "time": 5.233
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,223,128", 
+                    "time": 4.349
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 113.997, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,335,884", 
+                    "time": 14.903
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,068,872", 
+                    "time": 1.168
+                }, 
+                "CPU corountine time": 31.499, 
+                "CUDA driver and malloc cost": 7.344508000000005, 
+                "Step4 - prepare results": {
+                    "mem": "35,335,772", 
+                    "time": 6.026
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,068,336", 
+                    "time": 129.159
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,190,276", 
+                    "time": 3.903
+                }, 
+                "CUDA Kernel Time": 106.652492, 
+                "bin-search cost": {
+                    "mem": "31,024,940", 
+                    "time": 6.306
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,727,792", 
+                    "time": 0.505
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,555,980", 
+                    "time": 8.842
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,217,160", 
+                    "time": 6.24
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 98.856, 
+                "Step4 - output to the disk cost": {
+                    "mem": "35,386,840", 
+                    "time": 15.037
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,066,728", 
+                    "time": 1.22
+                }, 
+                "CPU corountine time": 21.391, 
+                "CUDA driver and malloc cost": 4.438577999999993, 
+                "Step4 - prepare results": {
+                    "mem": "35,386,840", 
+                    "time": 4.392
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,065,660", 
+                    "time": 113.231
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,278,440", 
+                    "time": 3.183
+                }, 
+                "CUDA Kernel Time": 94.417422, 
+                "bin-search cost": {
+                    "mem": "30,936,936", 
+                    "time": 6.26
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,789,540", 
+                    "time": 0.421
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,553,304", 
+                    "time": 8.11
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "32,220,884", 
+                    "time": 3.952
+                }
+            }
+        }
+    }, 
+    "webgraph_twitter/rev_deg": {
+        "56": {
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 815.975, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,339,292", 
+                    "time": 3.269
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,935,696", 
+                    "time": 0.892
+                }, 
+                "CPU corountine time": 8.443, 
+                "CUDA driver and malloc cost": 1.7965000000000373, 
+                "Step4 - prepare results": {
+                    "mem": "13,339,292", 
+                    "time": 2.207
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,915,528", 
+                    "time": 818.919
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,945,908", 
+                    "time": 2.024
+                }, 
+                "CUDA Kernel Time": 814.1785, 
+                "bin-search cost": {
+                    "mem": "11,622,652", 
+                    "time": 1.422
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,126,100", 
+                    "time": 0.085
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,078,236", 
+                    "time": 1.517
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,965,036", 
+                    "time": 1.597
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 28.125, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,335,144", 
+                    "time": 3.146
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,928,576", 
+                    "time": 0.767
+                }, 
+                "CPU corountine time": 8.491, 
+                "CUDA driver and malloc cost": 1.9215529999999994, 
+                "Step4 - prepare results": {
+                    "mem": "13,334,908", 
+                    "time": 2.007
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,916,156", 
+                    "time": 30.376
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,945,392", 
+                    "time": 1.923
+                }, 
+                "CUDA Kernel Time": 26.203447, 
+                "bin-search cost": {
+                    "mem": "11,615,816", 
+                    "time": 0.971
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,126,728", 
+                    "time": 0.125
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,078,864", 
+                    "time": 1.258
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,911,712", 
+                    "time": 1.589
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 249.803, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,333,264", 
+                    "time": 3.199
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,945,500", 
+                    "time": 1.019
+                }, 
+                "CPU corountine time": 7.558, 
+                "CUDA driver and malloc cost": 2.1387029999999925, 
+                "Step4 - prepare results": {
+                    "mem": "13,333,064", 
+                    "time": 2.147
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,924,904", 
+                    "time": 252.77
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,946,884", 
+                    "time": 2.048
+                }, 
+                "CUDA Kernel Time": 247.664297, 
+                "bin-search cost": {
+                    "mem": "11,600,564", 
+                    "time": 1.492
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,127,112", 
+                    "time": 0.083
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,087,612", 
+                    "time": 1.443
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "12,096,320", 
+                    "time": 1.82
+                }
+            }, 
+            "scan-xp-cuda-hybrid-kernels-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 204.826, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,333,240", 
+                    "time": 4.662
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,902,272", 
+                    "time": 1.05
+                }, 
+                "CPU corountine time": 9.891, 
+                "CUDA driver and malloc cost": 1.8702339999999822, 
+                "Step4 - prepare results": {
+                    "mem": "13,333,240", 
+                    "time": 2.684
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,835,700", 
+                    "time": 208.606
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,947,420", 
+                    "time": 2.062
+                }, 
+                "CUDA Kernel Time": 202.955766, 
+                "bin-search cost": {
+                    "mem": "11,584,252", 
+                    "time": 1.944
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,128,868", 
+                    "time": 0.135
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,998,408", 
+                    "time": 1.83
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,986,252", 
+                    "time": 1.692
+                }
+            }, 
+            "scan-xp-cuda-4-8-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 900.77, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,338,292", 
+                    "time": 4.511
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,949,572", 
+                    "time": 0.998
+                }, 
+                "CPU corountine time": 11.136, 
+                "CUDA driver and malloc cost": 2.4014379999999846, 
+                "Step4 - prepare results": {
+                    "mem": "13,338,292", 
+                    "time": 2.826
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,931,868", 
+                    "time": 904.784
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,951,912", 
+                    "time": 2.141
+                }, 
+                "CUDA Kernel Time": 898.368562, 
+                "bin-search cost": {
+                    "mem": "11,678,372", 
+                    "time": 1.921
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,133,440", 
+                    "time": 0.156
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,094,576", 
+                    "time": 2.06
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,981,576", 
+                    "time": 1.901
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 810.844, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,333,528", 
+                    "time": 3.189
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,928,820", 
+                    "time": 0.823
+                }, 
+                "CPU corountine time": 8.31, 
+                "CUDA driver and malloc cost": 1.4503750000000082, 
+                "Step4 - prepare results": {
+                    "mem": "13,333,324", 
+                    "time": 2.1
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,923,436", 
+                    "time": 813.142
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,945,388", 
+                    "time": 1.872
+                }, 
+                "CUDA Kernel Time": 809.393625, 
+                "bin-search cost": {
+                    "mem": "11,596,488", 
+                    "time": 0.959
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,126,748", 
+                    "time": 0.127
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,086,144", 
+                    "time": 1.335
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,939,772", 
+                    "time": 1.256
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex-multi-gpu-multi-pass": {
+                "CUDA kernel lauch cost": 27.709, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,339,820", 
+                    "time": 4.379
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,943,096", 
+                    "time": 0.945
+                }, 
+                "CPU corountine time": 10.432, 
+                "CUDA driver and malloc cost": 1.9976780000000005, 
+                "Step4 - prepare results": {
+                    "mem": "13,339,820", 
+                    "time": 2.714
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,896,744", 
+                    "time": 31.406
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,947,276", 
+                    "time": 2.134
+                }, 
+                "CUDA Kernel Time": 25.711322, 
+                "bin-search cost": {
+                    "mem": "11,644,644", 
+                    "time": 1.93
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,128,832", 
+                    "time": 0.089
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,059,448", 
+                    "time": 1.762
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,875,600", 
+                    "time": 1.709
+                }
+            }, 
+            "scan-xp-cuda-2-16-multi-gpu-multi-pass-dynamic-lb": {
+                "CUDA kernel lauch cost": 896.97, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,331,144", 
+                    "time": 3.441
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,943,296", 
+                    "time": 0.834
+                }, 
+                "CPU corountine time": 11.213, 
+                "CUDA driver and malloc cost": 2.0693120000000818, 
+                "Step4 - prepare results": {
+                    "mem": "13,331,144", 
+                    "time": 2.334
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,926,424", 
+                    "time": 900.023
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,947,976", 
+                    "time": 2.132
+                }, 
+                "CUDA Kernel Time": 894.900688, 
+                "bin-search cost": {
+                    "mem": "11,661,248", 
+                    "time": 1.459
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,129,468", 
+                    "time": 0.133
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,089,132", 
+                    "time": 1.591
+                }, 
+                "task range init by filtered accumulated degree cost": {
+                    "mem": "11,980,480", 
+                    "time": 1.627
+                }
+            }
+        }
+    }
+}

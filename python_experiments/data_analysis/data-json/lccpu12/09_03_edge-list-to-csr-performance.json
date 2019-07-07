@@ -1,0 +1,290 @@
+{
+    "snap_pokec": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.049, 
+            "before sort time": 0.136, 
+            "edge list to csr time": 0.264
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.051, 
+            "before sort time": 0.152, 
+            "edge list to csr time": 0.378
+        }
+    }, 
+    "small_snap_web_stanford": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.011, 
+            "before sort time": 0.015, 
+            "edge list to csr time": 0.045
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.012, 
+            "before sort time": 0.017, 
+            "edge list to csr time": 0.064
+        }
+    }, 
+    "n25_m40_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 2.111, 
+            "before sort time": 8.542, 
+            "edge list to csr time": 11.796
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.075, 
+            "before sort time": 8.335, 
+            "edge list to csr time": 14.479
+        }
+    }, 
+    "lfr_dataset": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.233, 
+            "before sort time": 0.98, 
+            "edge list to csr time": 1.516
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.226, 
+            "before sort time": 1.019, 
+            "edge list to csr time": 1.896
+        }
+    }, 
+    "small_snap_web_notredame": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.011, 
+            "before sort time": 0.016, 
+            "edge list to csr time": 0.05
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.011, 
+            "before sort time": 0.017, 
+            "edge list to csr time": 0.077
+        }
+    }, 
+    "lfr_graphs/n6000000_k40_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.228, 
+            "before sort time": 1.053, 
+            "edge list to csr time": 1.951
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.259, 
+            "before sort time": 1.142, 
+            "edge list to csr time": 2.316
+        }
+    }, 
+    "n50_m20_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 2.544, 
+            "before sort time": 9.15, 
+            "edge list to csr time": 14.864
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 2.553, 
+            "before sort time": 9.37, 
+            "edge list to csr time": 17.671
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.232, 
+            "before sort time": 1.071, 
+            "edge list to csr time": 1.74
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.238, 
+            "before sort time": 1.08, 
+            "edge list to csr time": 1.989
+        }
+    }, 
+    "webgraph_twitter": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 1.795, 
+            "before sort time": 5.942, 
+            "edge list to csr time": 9.065
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 1.816, 
+            "before sort time": 5.872, 
+            "edge list to csr time": 11.766
+        }
+    }, 
+    "n16dot7_m60_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 1.931, 
+            "before sort time": 8.086, 
+            "edge list to csr time": 10.64
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 1.923, 
+            "before sort time": 8.065, 
+            "edge list to csr time": 13.238
+        }
+    }, 
+    "webgraph_uk": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.204, 
+            "before sort time": 0.705, 
+            "edge list to csr time": 1.819
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.202, 
+            "before sort time": 0.694, 
+            "edge list to csr time": 2.678
+        }
+    }, 
+    "snap_livejournal": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.093, 
+            "before sort time": 0.283, 
+            "edge list to csr time": 0.575
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.1, 
+            "before sort time": 0.298, 
+            "edge list to csr time": 0.769
+        }
+    }, 
+    "small_snap_web_berkstan": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.014, 
+            "before sort time": 0.024, 
+            "edge list to csr time": 0.091
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.013, 
+            "before sort time": 0.023, 
+            "edge list to csr time": 0.124
+        }
+    }, 
+    "snap_orkut": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.205, 
+            "before sort time": 0.84, 
+            "edge list to csr time": 1.155
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.203, 
+            "before sort time": 0.874, 
+            "edge list to csr time": 1.775
+        }
+    }, 
+    "lfr_graphs/n2400000_k100_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.226, 
+            "before sort time": 1.001, 
+            "edge list to csr time": 1.359
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.225, 
+            "before sort time": 0.951, 
+            "edge list to csr time": 1.872
+        }
+    }, 
+    "webgraph_webbase": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.75, 
+            "before sort time": 2.537, 
+            "edge list to csr time": 8.7
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.752, 
+            "before sort time": 2.442, 
+            "edge list to csr time": 12.831
+        }
+    }, 
+    "snap_friendster": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 5.361, 
+            "before sort time": 17.002, 
+            "edge list to csr time": 25.091
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 5.375, 
+            "before sort time": 17.698, 
+            "edge list to csr time": 37.613
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot1_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.229, 
+            "before sort time": 1.063, 
+            "edge list to csr time": 1.755
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.232, 
+            "before sort time": 1.139, 
+            "edge list to csr time": 2.098
+        }
+    }, 
+    "small_snap_dblp": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.011, 
+            "before sort time": 0.02, 
+            "edge list to csr time": 0.053
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.008, 
+            "before sort time": 0.014, 
+            "edge list to csr time": 0.075
+        }
+    }, 
+    "lfr_graphs/n3000000_k80_C0dot3_Bin": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.231, 
+            "before sort time": 0.991, 
+            "edge list to csr time": 1.586
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.223, 
+            "before sort time": 0.982, 
+            "edge list to csr time": 1.878
+        }
+    }, 
+    "webgraph_it": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.668, 
+            "before sort time": 3.152, 
+            "edge list to csr time": 6.715
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.668, 
+            "before sort time": 3.22, 
+            "edge list to csr time": 8.456
+        }
+    }, 
+    "n12dot5_m80_1billion_edge": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 1.853, 
+            "before sort time": 7.868, 
+            "edge list to csr time": 10.145
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 1.862, 
+            "before sort time": 7.925, 
+            "edge list to csr time": 12.714
+        }
+    }, 
+    "small_snap_cit_patents": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.017, 
+            "before sort time": 0.031, 
+            "edge list to csr time": 0.322
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.02, 
+            "before sort time": 0.029, 
+            "edge list to csr time": 0.373
+        }
+    }, 
+    "webgraph_eu": {
+        "edge_list_to_csr_performance_measure": {
+            "before csr transform time": 0.358, 
+            "before sort time": 1.422, 
+            "edge list to csr time": 2.381
+        }, 
+        "edge_list_to_csr_performance_measure_deg_descending": {
+            "before csr transform time": 0.369, 
+            "before sort time": 1.48, 
+            "edge list to csr time": 3.217
+        }
+    }
+}

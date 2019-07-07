@@ -1,0 +1,4018 @@
+{
+    "webgraph_twitter/rev_deg": {
+        "16": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "32": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,782,028", 
+                    "time": 9.068
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,067,168", 
+                    "time": 2.367
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,378,072", 
+                    "time": 9.138
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,067,168", 
+                    "time": 138.738
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,068,476", 
+                    "time": 4.05
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,249,756", 
+                    "time": 0.111
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,067,168", 
+                    "time": 6.579
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,897,364", 
+                    "time": 9.04
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,162,620", 
+                    "time": 2.426
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,471,040", 
+                    "time": 9.15
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,162,620", 
+                    "time": 143.306
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,164,156", 
+                    "time": 4.088
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,344,388", 
+                    "time": 0.114
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,162,620", 
+                    "time": 6.587
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,783,928", 
+                    "time": 9.058
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,067,200", 
+                    "time": 2.414
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,381,504", 
+                    "time": 9.032
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,067,200", 
+                    "time": 184.185
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,068,800", 
+                    "time": 4.15
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,248,844", 
+                    "time": 0.113
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,067,200", 
+                    "time": 6.558
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,985,108", 
+                    "time": 8.924
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,258,720", 
+                    "time": 2.421
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,568,072", 
+                    "time": 9.086
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,258,720", 
+                    "time": 190.714
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,260,332", 
+                    "time": 4.058
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,441,816", 
+                    "time": 0.11
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,258,720", 
+                    "time": 6.58
+                }
+            }
+        }, 
+        "1": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "2": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "64": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,962,880", 
+                    "time": 9.381
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,228,168", 
+                    "time": 2.552
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,524,052", 
+                    "time": 8.203
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,228,168", 
+                    "time": 74.171
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,229,504", 
+                    "time": 4.04
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,410,856", 
+                    "time": 0.109
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,228,168", 
+                    "time": 3.249
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,152,328", 
+                    "time": 9.057
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,426,744", 
+                    "time": 2.388
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,717,920", 
+                    "time": 8.089
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,426,744", 
+                    "time": 74.179
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,428,152", 
+                    "time": 3.928
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,609,680", 
+                    "time": 0.104
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,426,744", 
+                    "time": 3.247
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,952,596", 
+                    "time": 9.152
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,230,052", 
+                    "time": 2.396
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,528,352", 
+                    "time": 8.043
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,230,040", 
+                    "time": 94.479
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,231,412", 
+                    "time": 3.88
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,412,756", 
+                    "time": 0.105
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,230,040", 
+                    "time": 3.259
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,273,800", 
+                    "time": 9.044
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,544,528", 
+                    "time": 2.436
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,845,180", 
+                    "time": 8.227
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,544,528", 
+                    "time": 97.551
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,545,864", 
+                    "time": 3.92
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,727,428", 
+                    "time": 0.11
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,544,528", 
+                    "time": 3.243
+                }
+            }
+        }, 
+        "4": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "128": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,244,460", 
+                    "time": 9.266
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,555,956", 
+                    "time": 2.611
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,818,096", 
+                    "time": 7.207
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,555,956", 
+                    "time": 82.181
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,557,100", 
+                    "time": 3.82
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,738,476", 
+                    "time": 0.122
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,555,956", 
+                    "time": 2.36
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,620,916", 
+                    "time": 9.301
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,953,188", 
+                    "time": 2.607
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "14,210,708", 
+                    "time": 7.256
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,953,188", 
+                    "time": 68.363
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,954,640", 
+                    "time": 3.867
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "14,136,188", 
+                    "time": 0.118
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,953,188", 
+                    "time": 2.367
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,234,432", 
+                    "time": 9.061
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,553,952", 
+                    "time": 2.666
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,807,872", 
+                    "time": 7.32
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "13,553,948", 
+                    "time": 79.484
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,555,544", 
+                    "time": 3.861
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,736,896", 
+                    "time": 0.125
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "13,553,948", 
+                    "time": 2.372
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,823,796", 
+                    "time": 9.046
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "14,121,104", 
+                    "time": 2.581
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "14,374,248", 
+                    "time": 7.271
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "14,121,100", 
+                    "time": 83.147
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "14,122,380", 
+                    "time": 3.863
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "14,303,920", 
+                    "time": 0.12
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "14,121,100", 
+                    "time": 2.352
+                }
+            }
+        }, 
+        "8": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "256": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,901,700", 
+                    "time": 8.97
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "14,209,536", 
+                    "time": 3.196
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "14,460,688", 
+                    "time": 6.66
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "14,209,512", 
+                    "time": 139.268
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "14,210,984", 
+                    "time": 3.802
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "14,392,348", 
+                    "time": 0.13
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "14,209,512", 
+                    "time": 1.707
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "15,659,072", 
+                    "time": 9.06
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "15,004,812", 
+                    "time": 2.824
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "15,254,236", 
+                    "time": 6.618
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "15,004,804", 
+                    "time": 70.226
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "15,006,100", 
+                    "time": 3.771
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "15,186,464", 
+                    "time": 0.128
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "15,004,804", 
+                    "time": 1.707
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "14,896,728", 
+                    "time": 9.045
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "14,210,136", 
+                    "time": 2.986
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "14,470,128", 
+                    "time": 6.772
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "14,210,112", 
+                    "time": 90.481
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "14,211,472", 
+                    "time": 3.827
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "14,392,864", 
+                    "time": 0.134
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "14,210,112", 
+                    "time": 1.781
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "15,917,864", 
+                    "time": 8.868
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "15,232,252", 
+                    "time": 3.235
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "15,485,428", 
+                    "time": 6.81
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "15,232,208", 
+                    "time": 83.565
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "15,233,648", 
+                    "time": 3.775
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "15,415,220", 
+                    "time": 0.13
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "15,232,208", 
+                    "time": 1.668
+                }
+            }
+        }
+    }, 
+    "webgraph_twitter": {
+        "16": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "32": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,608,716", 
+                    "time": 10.419
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,904,204", 
+                    "time": 1.15
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,182,496", 
+                    "time": 3.295
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,204", 
+                    "time": 980.004
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,906,924", 
+                    "time": 2.574
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,088,384", 
+                    "time": 0.096
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,204", 
+                    "time": 5.877
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,485,180", 
+                    "time": 9.943
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,905,136", 
+                    "time": 1.239
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,175,528", 
+                    "time": 3.307
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,948", 
+                    "time": 3398.922
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,908,080", 
+                    "time": 2.587
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,089,572", 
+                    "time": 0.1
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,948", 
+                    "time": 6.146
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,623,120", 
+                    "time": 9.294
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,902,312", 
+                    "time": 1.161
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,176,252", 
+                    "time": 3.272
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,902,312", 
+                    "time": 190.8
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,905,540", 
+                    "time": 2.592
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,087,304", 
+                    "time": 0.099
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,902,312", 
+                    "time": 5.876
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,600,260", 
+                    "time": 9.254
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,902,456", 
+                    "time": 1.238
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,182,232", 
+                    "time": 3.483
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,902,260", 
+                    "time": 482.549
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,905,996", 
+                    "time": 2.579
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,087,340", 
+                    "time": 0.1
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,902,260", 
+                    "time": 6.161
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "1": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "2": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "64": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,611,336", 
+                    "time": 9.808
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,902,416", 
+                    "time": 1.082
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,154,396", 
+                    "time": 2.778
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,902,408", 
+                    "time": 643.276
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,906,180", 
+                    "time": 1.717
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,087,364", 
+                    "time": 0.095
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,902,408", 
+                    "time": 3.074
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,587,120", 
+                    "time": 9.85
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,904,508", 
+                    "time": 1.196
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,154,756", 
+                    "time": 2.814
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,500", 
+                    "time": 1710.019
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,907,692", 
+                    "time": 1.728
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,089,140", 
+                    "time": 0.099
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,500", 
+                    "time": 3.177
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,595,332", 
+                    "time": 9.305
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,904,528", 
+                    "time": 1.092
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,153,824", 
+                    "time": 2.784
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,528", 
+                    "time": 96.317
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,907,524", 
+                    "time": 1.723
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,089,016", 
+                    "time": 0.093
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,528", 
+                    "time": 3.071
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,596,488", 
+                    "time": 9.472
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,904,320", 
+                    "time": 1.183
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,156,628", 
+                    "time": 2.808
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,316", 
+                    "time": 242.629
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,908,884", 
+                    "time": 1.724
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,090,416", 
+                    "time": 0.098
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,316", 
+                    "time": 3.167
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "4": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "128": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,614,436", 
+                    "time": 9.265
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,904,440", 
+                    "time": 1.156
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,167,568", 
+                    "time": 2.688
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,440", 
+                    "time": 586.078
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,907,928", 
+                    "time": 1.333
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,089,280", 
+                    "time": 0.109
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,440", 
+                    "time": 2.021
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,565,152", 
+                    "time": 9.872
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,902,448", 
+                    "time": 1.25
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,159,268", 
+                    "time": 2.706
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,902,448", 
+                    "time": 1609.389
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,906,092", 
+                    "time": 1.323
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,087,588", 
+                    "time": 0.119
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,902,448", 
+                    "time": 2.062
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,564,016", 
+                    "time": 9.236
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,904,532", 
+                    "time": 1.181
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,151,988", 
+                    "time": 2.686
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,516", 
+                    "time": 64.15
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,907,348", 
+                    "time": 1.337
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,088,848", 
+                    "time": 0.11
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,516", 
+                    "time": 2.026
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,608,708", 
+                    "time": 9.541
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,904,464", 
+                    "time": 1.258
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,163,888", 
+                    "time": 2.68
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,904,452", 
+                    "time": 180.607
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,907,880", 
+                    "time": 1.314
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,089,256", 
+                    "time": 0.119
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,904,452", 
+                    "time": 2.065
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "8": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "256": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,611,536", 
+                    "time": 9.243
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,907,404", 
+                    "time": 1.218
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,180,856", 
+                    "time": 2.806
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,907,396", 
+                    "time": 596.388
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,911,436", 
+                    "time": 1.483
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,092,744", 
+                    "time": 0.127
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,907,396", 
+                    "time": 1.691
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,606,348", 
+                    "time": 10.074
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,908,784", 
+                    "time": 1.317
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,179,744", 
+                    "time": 2.821
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,908,772", 
+                    "time": 1655.87
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,912,364", 
+                    "time": 1.441
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,093,708", 
+                    "time": 0.128
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,908,772", 
+                    "time": 1.766
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,629,296", 
+                    "time": 9.249
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,905,408", 
+                    "time": 1.281
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,178,720", 
+                    "time": 2.805
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,905,380", 
+                    "time": 54.29
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,909,136", 
+                    "time": 1.553
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,090,476", 
+                    "time": 0.123
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,905,380", 
+                    "time": 1.638
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "13,621,040", 
+                    "time": 9.172
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,907,764", 
+                    "time": 1.396
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "13,176,216", 
+                    "time": 2.857
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,907,560", 
+                    "time": 165.119
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,911,248", 
+                    "time": 1.427
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,092,644", 
+                    "time": 0.129
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,907,560", 
+                    "time": 1.644
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }
+    }, 
+    "snap_friendster": {
+        "16": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "32": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,684,756", 
+                    "time": 30.28
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,288", 
+                    "time": 1.828
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,246,368", 
+                    "time": 2.144
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,288", 
+                    "time": 157.504
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,384", 
+                    "time": 7.867
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,500", 
+                    "time": 0.26
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,288", 
+                    "time": 15.152
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,669,228", 
+                    "time": 30.47
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,247,300", 
+                    "time": 1.895
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,247,200", 
+                    "time": 2.246
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,247,300", 
+                    "time": 369.148
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,247,308", 
+                    "time": 7.906
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,758,428", 
+                    "time": 0.284
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,247,300", 
+                    "time": 15.863
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,678,888", 
+                    "time": 30.722
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,300", 
+                    "time": 1.836
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,242,548", 
+                    "time": 2.147
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,300", 
+                    "time": 158.732
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,340", 
+                    "time": 7.909
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,236", 
+                    "time": 0.267
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,300", 
+                    "time": 15.181
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,690,528", 
+                    "time": 30.728
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,140", 
+                    "time": 1.894
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,250,056", 
+                    "time": 2.216
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,140", 
+                    "time": 369.88
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,148", 
+                    "time": 7.872
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,124", 
+                    "time": 0.274
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,140", 
+                    "time": 15.851
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "1": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "2": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "64": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,727,276", 
+                    "time": 30.29
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,424", 
+                    "time": 1.006
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,276,500", 
+                    "time": 1.53
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,424", 
+                    "time": 80.096
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,424", 
+                    "time": 4.441
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,436", 
+                    "time": 0.253
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,424", 
+                    "time": 8.185
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,732,160", 
+                    "time": 30.535
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,316", 
+                    "time": 1.03
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,281,252", 
+                    "time": 1.569
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,316", 
+                    "time": 185.845
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,316", 
+                    "time": 4.443
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,392", 
+                    "time": 0.262
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,316", 
+                    "time": 8.476
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,725,720", 
+                    "time": 30.62
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,348", 
+                    "time": 1.009
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,279,136", 
+                    "time": 1.54
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,348", 
+                    "time": 80.598
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,352", 
+                    "time": 4.448
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,220", 
+                    "time": 0.256
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,348", 
+                    "time": 8.243
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,705,504", 
+                    "time": 30.861
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,241,420", 
+                    "time": 1.029
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,275,260", 
+                    "time": 1.576
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,241,420", 
+                    "time": 186.167
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,241,436", 
+                    "time": 4.425
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,752,512", 
+                    "time": 0.263
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,241,420", 
+                    "time": 8.499
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "4": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "128": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,711,688", 
+                    "time": 30.239
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,242,360", 
+                    "time": 0.85
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,269,028", 
+                    "time": 1.496
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,242,360", 
+                    "time": 50.476
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,242,384", 
+                    "time": 3.684
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,753,460", 
+                    "time": 0.267
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,242,360", 
+                    "time": 6.223
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,712,924", 
+                    "time": 30.596
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,620", 
+                    "time": 0.864
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,255,848", 
+                    "time": 1.516
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,616", 
+                    "time": 127.009
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,904", 
+                    "time": 3.681
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,812", 
+                    "time": 0.282
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,616", 
+                    "time": 6.324
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,697,256", 
+                    "time": 30.152
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,243,604", 
+                    "time": 0.848
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,261,592", 
+                    "time": 1.482
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,243,604", 
+                    "time": 50.882
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,243,616", 
+                    "time": 3.666
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,754,736", 
+                    "time": 0.27
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,243,604", 
+                    "time": 6.222
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,695,820", 
+                    "time": 30.806
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,241,544", 
+                    "time": 0.866
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,262,548", 
+                    "time": 1.512
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,241,544", 
+                    "time": 127.452
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,241,564", 
+                    "time": 3.691
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,752,640", 
+                    "time": 0.275
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,241,544", 
+                    "time": 6.303
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "8": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "256": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,706,708", 
+                    "time": 29.992
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,244,636", 
+                    "time": 0.866
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,257,556", 
+                    "time": 1.916
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,244,636", 
+                    "time": 38.747
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,244,664", 
+                    "time": 3.794
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,755,852", 
+                    "time": 0.273
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,244,636", 
+                    "time": 5.348
+                }
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,727,012", 
+                    "time": 30.459
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,246,652", 
+                    "time": 0.867
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,282,296", 
+                    "time": 1.801
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,246,652", 
+                    "time": 107.315
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,246,680", 
+                    "time": 3.786
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,757,728", 
+                    "time": 0.275
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,246,652", 
+                    "time": 5.438
+                }
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,739,372", 
+                    "time": 31.006
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,246,664", 
+                    "time": 0.867
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,284,604", 
+                    "time": 1.726
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,246,664", 
+                    "time": 39.192
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,246,692", 
+                    "time": 3.779
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,757,780", 
+                    "time": 0.256
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,246,664", 
+                    "time": 5.34
+                }
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": {
+                    "mem": "35,705,612", 
+                    "time": 30.495
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,246,656", 
+                    "time": 0.866
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,283,352", 
+                    "time": 1.809
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,246,656", 
+                    "time": 107.498
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,246,676", 
+                    "time": 3.788
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "34,757,712", 
+                    "time": 0.284
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,246,656", 
+                    "time": 5.33
+                }
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }
+    }, 
+    "snap_friendster/rev_deg": {
+        "16": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "32": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,030,180", 
+                    "time": 30.188
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,731,740", 
+                    "time": 1.865
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,583,116", 
+                    "time": 12.067
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,731,732", 
+                    "time": 349.129
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,731,884", 
+                    "time": 7.651
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "35,242,972", 
+                    "time": 0.3
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,731,732", 
+                    "time": 18.632
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,111,296", 
+                    "time": 30.464
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,833,500", 
+                    "time": 1.871
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,684,696", 
+                    "time": 12.092
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,833,492", 
+                    "time": 352.327
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,833,656", 
+                    "time": 7.666
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "35,344,776", 
+                    "time": 0.318
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,833,492", 
+                    "time": 18.698
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,035,340", 
+                    "time": 30.081
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,733,680", 
+                    "time": 1.872
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,587,380", 
+                    "time": 12.178
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,733,668", 
+                    "time": 279.408
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,733,824", 
+                    "time": 7.653
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "35,244,904", 
+                    "time": 0.318
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,733,668", 
+                    "time": 18.589
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,209,856", 
+                    "time": 29.351
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "34,929,896", 
+                    "time": 1.873
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "35,783,260", 
+                    "time": 12.219
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "34,929,888", 
+                    "time": 295.451
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "34,930,044", 
+                    "time": 7.647
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "35,441,168", 
+                    "time": 0.314
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "34,929,888", 
+                    "time": 18.537
+                }
+            }
+        }, 
+        "1": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "2": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "64": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,623,172", 
+                    "time": 30.435
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "35,221,284", 
+                    "time": 1.055
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "36,200,660", 
+                    "time": 6.874
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "35,221,276", 
+                    "time": 234.169
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "35,221,552", 
+                    "time": 4.295
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "35,732,620", 
+                    "time": 0.28
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "35,221,276", 
+                    "time": 9.3
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,855,956", 
+                    "time": 30.201
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "35,423,552", 
+                    "time": 1.054
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "36,404,728", 
+                    "time": 6.871
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "35,423,544", 
+                    "time": 181.561
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "35,423,840", 
+                    "time": 4.288
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "35,934,960", 
+                    "time": 0.271
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "35,423,544", 
+                    "time": 9.308
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,623,020", 
+                    "time": 30.28
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "35,221,524", 
+                    "time": 1.058
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "36,206,660", 
+                    "time": 6.924
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "35,221,524", 
+                    "time": 142.394
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "35,221,788", 
+                    "time": 4.3
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "35,732,856", 
+                    "time": 0.273
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "35,221,524", 
+                    "time": 9.308
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "36,997,192", 
+                    "time": 29.693
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "35,579,136", 
+                    "time": 1.059
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "36,556,276", 
+                    "time": 6.877
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "35,579,128", 
+                    "time": 149.792
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "35,579,412", 
+                    "time": 4.33
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "36,090,536", 
+                    "time": 0.279
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "35,579,128", 
+                    "time": 9.314
+                }
+            }
+        }, 
+        "4": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "128": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "37,627,848", 
+                    "time": 30.154
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "36,196,884", 
+                    "time": 0.854
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "37,201,504", 
+                    "time": 3.565
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "36,196,884", 
+                    "time": 307.313
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "36,197,144", 
+                    "time": 3.388
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "36,708,232", 
+                    "time": 0.284
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "36,196,884", 
+                    "time": 7.22
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "38,029,584", 
+                    "time": 30.795
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "36,605,416", 
+                    "time": 0.854
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "37,600,856", 
+                    "time": 3.612
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "36,605,408", 
+                    "time": 178.86
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "36,605,664", 
+                    "time": 3.387
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "37,116,784", 
+                    "time": 0.281
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "36,605,408", 
+                    "time": 7.2
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "37,613,940", 
+                    "time": 30.15
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "36,197,476", 
+                    "time": 0.856
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "37,197,500", 
+                    "time": 3.577
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "36,197,476", 
+                    "time": 109.526
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "36,197,680", 
+                    "time": 3.414
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "36,708,768", 
+                    "time": 0.278
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "36,197,476", 
+                    "time": 7.194
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "38,220,108", 
+                    "time": 30.012
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "36,774,800", 
+                    "time": 0.85
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "37,777,116", 
+                    "time": 3.585
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "36,774,800", 
+                    "time": 110.669
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "36,775,036", 
+                    "time": 3.39
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "37,286,164", 
+                    "time": 0.277
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "36,774,800", 
+                    "time": 7.169
+                }
+            }
+        }, 
+        "8": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }, 
+        "256": {
+            "scan-xp-avx512-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec": {
+                "Step4 - output to the disk cost": {
+                    "mem": "39,438,084", 
+                    "time": 31.155
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "38,148,136", 
+                    "time": 0.839
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "38,999,404", 
+                    "time": 2.313
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "38,148,128", 
+                    "time": 401.014
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "38,148,312", 
+                    "time": 3.37
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "38,659,400", 
+                    "time": 0.249
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "38,148,128", 
+                    "time": 5.243
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw": {
+                "Step4 - output to the disk cost": {
+                    "mem": "39,963,048", 
+                    "time": 30.344
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "38,672,392", 
+                    "time": 0.834
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "39,526,196", 
+                    "time": 2.351
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "38,672,384", 
+                    "time": 187.224
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "38,672,548", 
+                    "time": 3.367
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "39,183,688", 
+                    "time": 0.296
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "38,672,384", 
+                    "time": 5.234
+                }
+            }, 
+            "scan-xp-naive-merge": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-avx512-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-hybrid": {
+                "Step4 - output to the disk cost": null, 
+                "Step2 - ClusterCore": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-naive-bitvec-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "39,457,312", 
+                    "time": 30.08
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "38,147,148", 
+                    "time": 0.83
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "39,022,404", 
+                    "time": 2.292
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "38,147,136", 
+                    "time": 120.486
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "38,147,276", 
+                    "time": 3.351
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "38,658,352", 
+                    "time": 0.273
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "38,147,136", 
+                    "time": 5.209
+                }
+            }, 
+            "scan-xp-naive-bitvec-hbw-2d": {
+                "Step4 - output to the disk cost": {
+                    "mem": "40,282,604", 
+                    "time": 30.107
+                }, 
+                "Step2 - ClusterCore": {
+                    "mem": "38,946,328", 
+                    "time": 0.826
+                }, 
+                "Step4 - prepare results": {
+                    "mem": "39,825,252", 
+                    "time": 2.305
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "38,946,320", 
+                    "time": 97.894
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "38,946,464", 
+                    "time": 3.328
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "39,457,648", 
+                    "time": 0.28
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "38,946,320", 
+                    "time": 5.239
+                }
+            }
+        }
+    }
+}

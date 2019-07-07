@@ -1,0 +1,3749 @@
+{
+    "rmat_v1m_e1g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,876", 
+                    "time": 7.309
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,003,024", 
+                    "time": 305.649
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "14,635,808", 
+                    "time": 6.865
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,908", 
+                    "time": 7.252
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "14,640,564", 
+                    "time": 130.542
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "14,636,712", 
+                    "time": 7.175
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,904", 
+                    "time": 7.229
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "14,640,116", 
+                    "time": 138.625
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "10,274,424", 
+                    "time": 2.785
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,658,708", 
+                    "time": 6.955
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "10,280,408", 
+                    "time": 141.871
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "10,271,688", 
+                    "time": 2.553
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,658,696", 
+                    "time": 6.949
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "10,276,348", 
+                    "time": 141.987
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,608", 
+                    "time": 6.949
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,986,672", 
+                    "time": 550.129
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,588", 
+                    "time": 7.298
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,992,404", 
+                    "time": 500.347
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,604", 
+                    "time": 6.963
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,986,300", 
+                    "time": 222.42
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,596", 
+                    "time": 7.283
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,839,652", 
+                    "time": 308.523
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "14,641,724", 
+                    "time": 6.899
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,892", 
+                    "time": 7.266
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "14,645,656", 
+                    "time": 238.395
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,658,688", 
+                    "time": 7.299
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,992,396", 
+                    "time": 550.05
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "11,869,528", 
+                    "time": 3.724
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,658,692", 
+                    "time": 6.88
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "11,874,460", 
+                    "time": 304.161
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,592", 
+                    "time": 7.332
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,840,080", 
+                    "time": 214.42
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,872", 
+                    "time": 6.972
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,998,912", 
+                    "time": 301.449
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,896", 
+                    "time": 7.047
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,994,788", 
+                    "time": 377.639
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,658,672", 
+                    "time": 7.232
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,998,512", 
+                    "time": 257.927
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "14,635,240", 
+                    "time": 6.934
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,904", 
+                    "time": 6.959
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "14,671,124", 
+                    "time": 184.028
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,620", 
+                    "time": 7.189
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,980,168", 
+                    "time": 235.13
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,604", 
+                    "time": 6.946
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,986,276", 
+                    "time": 434.543
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,608", 
+                    "time": 7.274
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,980,172", 
+                    "time": 283.91
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,604", 
+                    "time": 7.003
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,984,244", 
+                    "time": 241.819
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,604", 
+                    "time": 6.984
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,986,292", 
+                    "time": 304.19
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "14,447,964", 
+                    "time": 4.255
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,616", 
+                    "time": 6.913
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "14,453,740", 
+                    "time": 87.494
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,604", 
+                    "time": 7.118
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,986,288", 
+                    "time": 192.084
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,588", 
+                    "time": 6.984
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,980,140", 
+                    "time": 456.237
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,592", 
+                    "time": 7.209
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,978,128", 
+                    "time": 279.481
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,588", 
+                    "time": 6.93
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,988,316", 
+                    "time": 421.504
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,604", 
+                    "time": 6.962
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,986,288", 
+                    "time": 476.895
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,588", 
+                    "time": 6.958
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,990,372", 
+                    "time": 241.361
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,604", 
+                    "time": 6.959
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,976,060", 
+                    "time": 304.376
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "14,635,884", 
+                    "time": 7.034
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,654,888", 
+                    "time": 7.277
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "14,640,780", 
+                    "time": 228.843
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }
+        }
+    }, 
+    "rmat_v100m_e1g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,924", 
+                    "time": 9.858
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,920,160", 
+                    "time": 19.095
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "23,988,128", 
+                    "time": 15.035
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,956", 
+                    "time": 9.987
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "23,991,408", 
+                    "time": 22.256
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "23,989,052", 
+                    "time": 14.105
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,952", 
+                    "time": 9.994
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "23,991,356", 
+                    "time": 19.705
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "61,693,084", 
+                    "time": 120.275
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,672", 
+                    "time": 9.71
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "64,221,580", 
+                    "time": 378.168
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "61,601,636", 
+                    "time": 117.201
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,672", 
+                    "time": 10.592
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "63,627,480", 
+                    "time": 432.912
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,656", 
+                    "time": 9.788
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,917,828", 
+                    "time": 21.813
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,640", 
+                    "time": 9.859
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,913,760", 
+                    "time": 22.579
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,664", 
+                    "time": 10.208
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,917,868", 
+                    "time": 20.088
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,664", 
+                    "time": 9.729
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "10,259,536", 
+                    "time": 15.52
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "23,989,020", 
+                    "time": 14.075
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,956", 
+                    "time": 9.842
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "23,991,412", 
+                    "time": 20.563
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,652", 
+                    "time": 9.807
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,921,908", 
+                    "time": 22.037
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "18,197,576", 
+                    "time": 9.07
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,660", 
+                    "time": 9.779
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "18,199,048", 
+                    "time": 17.606
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,652", 
+                    "time": 9.847
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "10,259,516", 
+                    "time": 15.522
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,940", 
+                    "time": 9.886
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,909,968", 
+                    "time": 19.959
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,940", 
+                    "time": 9.829
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,909,956", 
+                    "time": 20.511
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,648", 
+                    "time": 9.837
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,919,892", 
+                    "time": 21.35
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "23,988,636", 
+                    "time": 15.463
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,952", 
+                    "time": 9.855
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "23,991,416", 
+                    "time": 20.086
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,664", 
+                    "time": 10.595
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,911,732", 
+                    "time": 21.697
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,656", 
+                    "time": 10.431
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,923,968", 
+                    "time": 22.364
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,648", 
+                    "time": 9.787
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,919,884", 
+                    "time": 19.874
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,656", 
+                    "time": 10.839
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,921,868", 
+                    "time": 18.761
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,656", 
+                    "time": 9.779
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,917,856", 
+                    "time": 20.034
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "18,201,676", 
+                    "time": 9.665
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,660", 
+                    "time": 10.291
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "18,203,112", 
+                    "time": 17.192
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,668", 
+                    "time": 9.764
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,913,752", 
+                    "time": 22.713
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,656", 
+                    "time": 9.777
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,921,940", 
+                    "time": 22.03
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,652", 
+                    "time": 10.535
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,913,768", 
+                    "time": 20.841
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,652", 
+                    "time": 9.973
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,913,744", 
+                    "time": 22.893
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,652", 
+                    "time": 9.997
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,921,944", 
+                    "time": 22.593
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,656", 
+                    "time": 9.819
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,768,508", 
+                    "time": 41.376
+                }
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,656", 
+                    "time": 9.802
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,917,840", 
+                    "time": 19.6
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,652", 
+                    "time": 9.742
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,923,968", 
+                    "time": 20.565
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "23,988,052", 
+                    "time": 15.114
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,952", 
+                    "time": 9.93
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "23,991,376", 
+                    "time": 20.573
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "18,361,660", 
+                    "time": 9.779
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,768,764", 
+                    "time": 56.175
+                }
+            }
+        }
+    }, 
+    "rmat_v20m_e2g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,444", 
+                    "time": 16.859
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,164,048", 
+                    "time": 111.181
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "32,703,068", 
+                    "time": 21.757
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,803,540", 
+                    "time": 16.906
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "32,705,404", 
+                    "time": 173.118
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "32,696,556", 
+                    "time": 21.822
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,452", 
+                    "time": 17.393
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "32,699,264", 
+                    "time": 160.397
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "52,538,304", 
+                    "time": 51.598
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,168", 
+                    "time": 16.765
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "52,746,324", 
+                    "time": 134.973
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "53,200,684", 
+                    "time": 42.602
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,176", 
+                    "time": 15.596
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "53,255,356", 
+                    "time": 132.445
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,148", 
+                    "time": 17.33
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,163,744", 
+                    "time": 178.321
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 16.461
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,163,764", 
+                    "time": 164.363
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,172", 
+                    "time": 16.414
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,161,724", 
+                    "time": 116.679
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,160", 
+                    "time": 14.894
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,116,080", 
+                    "time": 136.586
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "32,696,300", 
+                    "time": 21.553
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,456", 
+                    "time": 16.848
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "32,699,296", 
+                    "time": 181.318
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 16.496
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,171,940", 
+                    "time": 178.262
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "24,815,228", 
+                    "time": 11.804
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,801,208", 
+                    "time": 17.201
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "24,817,508", 
+                    "time": 136.416
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,156", 
+                    "time": 16.093
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,115,932", 
+                    "time": 113.448
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,436", 
+                    "time": 16.691
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,159,964", 
+                    "time": 114.88
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,444", 
+                    "time": 16.84
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,166,080", 
+                    "time": 122.463
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 16.819
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,169,884", 
+                    "time": 122.805
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "32,695,760", 
+                    "time": 21.37
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,456", 
+                    "time": 17.149
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "32,699,296", 
+                    "time": 194.999
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,805,300", 
+                    "time": 16.245
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,173,988", 
+                    "time": 120.431
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,156", 
+                    "time": 15.116
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,165,820", 
+                    "time": 154.704
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,156", 
+                    "time": 16.504
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,161,720", 
+                    "time": 120.792
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 15.197
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,167,832", 
+                    "time": 113.797
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 16.708
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,169,872", 
+                    "time": 126.456
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "25,196,864", 
+                    "time": 12.054
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,164", 
+                    "time": 16.873
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "25,199,336", 
+                    "time": 121.258
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,172", 
+                    "time": 14.114
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,169,904", 
+                    "time": 112.43
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 16.721
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,173,976", 
+                    "time": 150.66
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,156", 
+                    "time": 15.089
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,173,984", 
+                    "time": 118.72
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 14.808
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,167,860", 
+                    "time": 144.943
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,148", 
+                    "time": 16.483
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,169,884", 
+                    "time": 166.956
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,160", 
+                    "time": 14.802
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,020,368", 
+                    "time": 487.169
+                }
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,152", 
+                    "time": 14.763
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,169,880", 
+                    "time": 113.364
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,148", 
+                    "time": 16.796
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,173,988", 
+                    "time": 126.398
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "32,696,784", 
+                    "time": 21.591
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,456", 
+                    "time": 17.096
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "32,699,304", 
+                    "time": 208.913
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,799,160", 
+                    "time": 16.605
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,019,112", 
+                    "time": 765.842
+                }
+            }
+        }
+    }, 
+    "rmat_v10m_e1g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,992", 
+                    "time": 6.789
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,154,152", 
+                    "time": 51.247
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "16,345,656", 
+                    "time": 10.89
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,901,004", 
+                    "time": 6.783
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,348,656", 
+                    "time": 76.532
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "16,346,036", 
+                    "time": 10.871
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,901,008", 
+                    "time": 6.782
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,348,652", 
+                    "time": 70.982
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "22,595,116", 
+                    "time": 13.622
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,724", 
+                    "time": 6.724
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "22,596,100", 
+                    "time": 54.466
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "22,595,620", 
+                    "time": 15.064
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,724", 
+                    "time": 6.762
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "22,596,084", 
+                    "time": 53.544
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.708
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,153,908", 
+                    "time": 83.396
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.738
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,157,968", 
+                    "time": 76.759
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,724", 
+                    "time": 6.742
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,157,984", 
+                    "time": 54.082
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,716", 
+                    "time": 6.717
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,059,292", 
+                    "time": 61.656
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "16,345,644", 
+                    "time": 10.842
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,901,000", 
+                    "time": 6.85
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,348,652", 
+                    "time": 84.667
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.727
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,155,932", 
+                    "time": 83.594
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "12,442,808", 
+                    "time": 5.871
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.741
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "12,443,996", 
+                    "time": 63.03
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.755
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,059,288", 
+                    "time": 51.855
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,992", 
+                    "time": 6.753
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,154,172", 
+                    "time": 53.526
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,996", 
+                    "time": 6.768
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,164,416", 
+                    "time": 56.898
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.767
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,153,900", 
+                    "time": 56.816
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "16,345,576", 
+                    "time": 10.829
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,901,004", 
+                    "time": 6.74
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,348,640", 
+                    "time": 88.483
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,904,808", 
+                    "time": 6.711
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,160,016", 
+                    "time": 55.359
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,904,788", 
+                    "time": 6.746
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,162,028", 
+                    "time": 72.821
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.774
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,157,988", 
+                    "time": 56.047
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,700", 
+                    "time": 6.725
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,157,980", 
+                    "time": 52.171
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.696
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,153,884", 
+                    "time": 58.798
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "12,818,140", 
+                    "time": 6.194
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,716", 
+                    "time": 6.756
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "12,820,020", 
+                    "time": 55.009
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,720", 
+                    "time": 7.11
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,145,736", 
+                    "time": 52.202
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.754
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,162,048", 
+                    "time": 70.556
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.802
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,153,904", 
+                    "time": 55.351
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.772
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,166,152", 
+                    "time": 67.936
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.763
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,166,172", 
+                    "time": 77.544
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,704", 
+                    "time": 6.751
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,011,672", 
+                    "time": 280.141
+                }
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.689
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,153,904", 
+                    "time": 52.239
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.759
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,160,040", 
+                    "time": 58.587
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "16,344,940", 
+                    "time": 10.939
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,901,004", 
+                    "time": 6.783
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "16,348,652", 
+                    "time": 95.983
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "15,900,708", 
+                    "time": 6.737
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,011,048", 
+                    "time": 350.451
+                }
+            }
+        }
+    }, 
+    "rmat_v200m_e2g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,725,368", 
+                    "time": 26.304
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,687,816", 
+                    "time": 39.588
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "47,207,656", 
+                    "time": 35.852
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,725,380", 
+                    "time": 22.49
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "47,866,764", 
+                    "time": 47.557
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "47,701,464", 
+                    "time": 32.102
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,296", 
+                    "time": 26.351
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "47,685,264", 
+                    "time": 43.279
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,992", 
+                    "time": 24.548
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,675,284", 
+                    "time": 45.353
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,996", 
+                    "time": 26.085
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,687,544", 
+                    "time": 46.325
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,012", 
+                    "time": 21.71
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,687,552", 
+                    "time": 44.178
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,004", 
+                    "time": 21.56
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "20,510,728", 
+                    "time": 33.069
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "47,252,424", 
+                    "time": 34.343
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,288", 
+                    "time": 26.061
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "47,838,672", 
+                    "time": 43.351
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,992", 
+                    "time": 24.214
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,681,404", 
+                    "time": 46.645
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "36,319,968", 
+                    "time": 19.209
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,727,128", 
+                    "time": 24.035
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "36,321,884", 
+                    "time": 38.183
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,988", 
+                    "time": 21.086
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "20,510,556", 
+                    "time": 36.553
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,284", 
+                    "time": 26.295
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,679,648", 
+                    "time": 39.428
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,280", 
+                    "time": 22.925
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,683,728", 
+                    "time": 40.76
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,988", 
+                    "time": 26.525
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,681,408", 
+                    "time": 44.617
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "47,548,524", 
+                    "time": 31.672
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,727,416", 
+                    "time": 24.89
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "47,546,972", 
+                    "time": 43.332
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,008", 
+                    "time": 22.942
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,681,420", 
+                    "time": 44.826
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,996", 
+                    "time": 25.083
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,683,464", 
+                    "time": 47.006
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,723,036", 
+                    "time": 26.026
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,689,580", 
+                    "time": 42.263
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,992", 
+                    "time": 23.922
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,687,544", 
+                    "time": 39.464
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,996", 
+                    "time": 22.604
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,681,408", 
+                    "time": 40.486
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "36,314,304", 
+                    "time": 18.958
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,004", 
+                    "time": 26.243
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "36,315,860", 
+                    "time": 36.821
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,008", 
+                    "time": 23.859
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,683,464", 
+                    "time": 48.03
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,996", 
+                    "time": 23.133
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,685,504", 
+                    "time": 45.902
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,992", 
+                    "time": 25.332
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,677,328", 
+                    "time": 42.859
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,996", 
+                    "time": 23.362
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,677,316", 
+                    "time": 48.917
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,992", 
+                    "time": 23.246
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,683,432", 
+                    "time": 46.6
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,725,084", 
+                    "time": 24.727
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,540,236", 
+                    "time": 88.443
+                }
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,717,404", 
+                    "time": 27.216
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,683,412", 
+                    "time": 37.983
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,720,992", 
+                    "time": 24.561
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,685,504", 
+                    "time": 40.647
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "47,641,068", 
+                    "time": 34.01
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,296", 
+                    "time": 22.844
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "47,674,568", 
+                    "time": 45.262
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "36,721,004", 
+                    "time": 22.836
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "19,534,788", 
+                    "time": 121.18
+                }
+            }
+        }
+    }, 
+    "rmat_v0.5m_e0.5g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,728", 
+                    "time": 3.806
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,080,884", 
+                    "time": 141.927
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "7,245,148", 
+                    "time": 3.574
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,732", 
+                    "time": 3.677
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,249,672", 
+                    "time": 46.159
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "7,242,316", 
+                    "time": 3.578
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,748", 
+                    "time": 3.676
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,262,812", 
+                    "time": 47.39
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "5,031,928", 
+                    "time": 1.3
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,464", 
+                    "time": 3.755
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,036,972", 
+                    "time": 66.097
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "5,032,228", 
+                    "time": 1.338
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,460", 
+                    "time": 3.738
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,036,960", 
+                    "time": 66.41
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,448", 
+                    "time": 3.751
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,062,088", 
+                    "time": 246.063
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,424", 
+                    "time": 3.72
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,074,288", 
+                    "time": 223.806
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,832,528", 
+                    "time": 3.715
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,072,304", 
+                    "time": 93.97
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,440", 
+                    "time": 3.734
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "3,921,100", 
+                    "time": 131.659
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "7,243,304", 
+                    "time": 3.616
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,740", 
+                    "time": 3.719
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,248,156", 
+                    "time": 88.012
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,432", 
+                    "time": 3.74
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,070,272", 
+                    "time": 245.984
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "5,971,128", 
+                    "time": 2.049
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,436", 
+                    "time": 3.721
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,974,664", 
+                    "time": 131.592
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,448", 
+                    "time": 3.807
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "3,921,104", 
+                    "time": 88.882
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,716", 
+                    "time": 3.737
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,082,920", 
+                    "time": 136.319
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,716", 
+                    "time": 3.72
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,078,776", 
+                    "time": 174.791
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,424", 
+                    "time": 3.75
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,074,352", 
+                    "time": 111.705
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "7,251,572", 
+                    "time": 3.66
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,740", 
+                    "time": 3.717
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,266,936", 
+                    "time": 64.799
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,464", 
+                    "time": 3.714
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,072,320", 
+                    "time": 99.766
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,428", 
+                    "time": 3.7
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,070,264", 
+                    "time": 197.044
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,424", 
+                    "time": 3.719
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,066,200", 
+                    "time": 125.456
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,832,516", 
+                    "time": 3.705
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,068,200", 
+                    "time": 104.542
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,832,532", 
+                    "time": 3.739
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,078,428", 
+                    "time": 133.367
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "7,030,156", 
+                    "time": 2.144
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,452", 
+                    "time": 3.72
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,033,596", 
+                    "time": 28.772
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,456", 
+                    "time": 3.833
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,057,996", 
+                    "time": 80.197
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,440", 
+                    "time": 3.721
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,057,996", 
+                    "time": 207.396
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,432", 
+                    "time": 3.736
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,066,164", 
+                    "time": 123.334
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,432", 
+                    "time": 3.737
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,064,108", 
+                    "time": 194.376
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,432", 
+                    "time": 3.733
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,062,092", 
+                    "time": 211.962
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,448", 
+                    "time": 3.742
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "3,926,880", 
+                    "time": 745.491
+                }
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,424", 
+                    "time": 3.7
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,068,192", 
+                    "time": 104.596
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,440", 
+                    "time": 3.732
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,068,216", 
+                    "time": 133.308
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "7,253,072", 
+                    "time": 3.61
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,828,724", 
+                    "time": 3.717
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "7,264,776", 
+                    "time": 81.857
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }
+        }
+    }, 
+    "rmat_v2m_e2g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,307,252", 
+                    "time": 16.707
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,835,072", 
+                    "time": 637.196
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "29,713,380", 
+                    "time": 13.503
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,311,324", 
+                    "time": 16.973
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "29,716,980", 
+                    "time": 364.274
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "29,705,936", 
+                    "time": 13.669
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,307,244", 
+                    "time": 17.699
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "29,711,868", 
+                    "time": 369.49
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "21,242,104", 
+                    "time": 6.332
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,964", 
+                    "time": 17.009
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "21,247,412", 
+                    "time": 302.245
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "21,243,988", 
+                    "time": 6.821
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,309,024", 
+                    "time": 16.672
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "21,249,508", 
+                    "time": 299.892
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,976", 
+                    "time": 17.114
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,810,168", 
+                    "time": 507.852
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,952", 
+                    "time": 16.725
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,676,496", 
+                    "time": 699.374
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "29,709,200", 
+                    "time": 13.876
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,307,264", 
+                    "time": 16.798
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "29,713,584", 
+                    "time": 627.108
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "23,645,728", 
+                    "time": 7.245
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,972", 
+                    "time": 18.448
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "23,651,480", 
+                    "time": 679.829
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,964", 
+                    "time": 18.705
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,676,508", 
+                    "time": 496.55
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,307,232", 
+                    "time": 16.572
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,826,848", 
+                    "time": 643.765
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,964", 
+                    "time": 18.131
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,810,148", 
+                    "time": 577.405
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "29,707,136", 
+                    "time": 13.489
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,307,264", 
+                    "time": 16.765
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "29,711,280", 
+                    "time": 510.655
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,960", 
+                    "time": 16.594
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,812,188", 
+                    "time": 529.633
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,948", 
+                    "time": 18.946
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,814,232", 
+                    "time": 625.028
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,960", 
+                    "time": 16.828
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,812,196", 
+                    "time": 542.161
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,956", 
+                    "time": 18.275
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,803,976", 
+                    "time": 674.065
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "27,266,876", 
+                    "time": 7.982
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,956", 
+                    "time": 18.69
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "27,275,652", 
+                    "time": 248.195
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,980", 
+                    "time": 15.649
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,810,160", 
+                    "time": 447.609
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,960", 
+                    "time": 16.565
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,824,460", 
+                    "time": 615.466
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,944", 
+                    "time": 15.654
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,818,308", 
+                    "time": 541.816
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,306,944", 
+                    "time": 17.09
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "15,818,316", 
+                    "time": 673.626
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "29,709,292", 
+                    "time": 13.56
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "31,307,248", 
+                    "time": 17.057
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "29,713,028", 
+                    "time": 623.975
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": null, 
+                "is_time_out": null, 
+                "Forward cost": null
+            }
+        }
+    }, 
+    "rmat_v50m_e0.5g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,256", 
+                    "time": 4.781
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,029,188", 
+                    "time": 9.275
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "11,964,544", 
+                    "time": 7.01
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,268", 
+                    "time": 4.814
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "11,967,436", 
+                    "time": 9.983
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "11,963,888", 
+                    "time": 6.962
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,264", 
+                    "time": 4.793
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "11,967,412", 
+                    "time": 8.978
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "31,302,776", 
+                    "time": 24.304
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,984", 
+                    "time": 4.784
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "31,302,864", 
+                    "time": 15.335
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "31,300,640", 
+                    "time": 24.53
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,984", 
+                    "time": 4.793
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "31,301,508", 
+                    "time": 15.322
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,968", 
+                    "time": 4.879
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,028,916", 
+                    "time": 10.918
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,964", 
+                    "time": 4.822
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,956", 
+                    "time": 10.745
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,980", 
+                    "time": 4.841
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,033,000", 
+                    "time": 10.372
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,976", 
+                    "time": 4.809
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,131,024", 
+                    "time": 6.953
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "11,964,632", 
+                    "time": 7.133
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,268", 
+                    "time": 4.857
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "11,967,428", 
+                    "time": 8.991
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,186,048", 
+                    "time": 4.801
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,041,156", 
+                    "time": 10.668
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "9,142,540", 
+                    "time": 4.516
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,956", 
+                    "time": 4.875
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,145,088", 
+                    "time": 8.069
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,964", 
+                    "time": 4.76
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,131,004", 
+                    "time": 6.505
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,248", 
+                    "time": 4.831
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,031,240", 
+                    "time": 9.644
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,256", 
+                    "time": 4.769
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,033,268", 
+                    "time": 9.649
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,964", 
+                    "time": 4.787
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,032,996", 
+                    "time": 10.034
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "11,964,564", 
+                    "time": 6.857
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,264", 
+                    "time": 4.829
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "11,967,440", 
+                    "time": 9.573
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,980", 
+                    "time": 4.739
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,936", 
+                    "time": 10.417
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,964", 
+                    "time": 4.78
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,956", 
+                    "time": 10.596
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,968", 
+                    "time": 4.797
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,960", 
+                    "time": 9.805
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,964", 
+                    "time": 5.034
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,948", 
+                    "time": 9.388
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,964", 
+                    "time": 4.824
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,032,984", 
+                    "time": 9.51
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "9,146,376", 
+                    "time": 4.594
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,976", 
+                    "time": 4.826
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,148,608", 
+                    "time": 7.892
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,984", 
+                    "time": 4.782
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,976", 
+                    "time": 10.668
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,964", 
+                    "time": 4.901
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,032,972", 
+                    "time": 10.945
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,968", 
+                    "time": 4.864
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,964", 
+                    "time": 9.997
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,968", 
+                    "time": 4.734
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,032,976", 
+                    "time": 11.333
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,960", 
+                    "time": 4.845
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,039,100", 
+                    "time": 10.646
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,968", 
+                    "time": 4.819
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,885,588", 
+                    "time": 18.69
+                }
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,968", 
+                    "time": 4.754
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,030,960", 
+                    "time": 9.291
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,960", 
+                    "time": 4.823
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "5,032,980", 
+                    "time": 9.753
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "11,965,224", 
+                    "time": 6.853
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,182,268", 
+                    "time": 4.827
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "11,967,404", 
+                    "time": 9.399
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "9,181,972", 
+                    "time": 4.844
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,885,956", 
+                    "time": 25.34
+                }
+            }
+        }
+    }, 
+    "rmat_v5m_e0.5g": {
+        "40": {
+            "tri-cnt-sse-han-bmiss-sttni-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,764", 
+                    "time": 3.511
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,084,848", 
+                    "time": 23.911
+                }
+            }, 
+            "tri-cnt-sse-bsr-shuffle-deg": {
+                "PreProcess-": {
+                    "mem": "8,172,596", 
+                    "time": 5.335
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,776", 
+                    "time": 3.505
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,175,272", 
+                    "time": 33.533
+                }
+            }, 
+            "tri-cnt-sse-bsr-qfilter-deg": {
+                "PreProcess-": {
+                    "mem": "8,172,412", 
+                    "time": 5.403
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,780", 
+                    "time": 3.514
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,175,252", 
+                    "time": 31.697
+                }
+            }, 
+            "tri-cnt-sse-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "9,467,412", 
+                    "time": 5.054
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,500", 
+                    "time": 3.451
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,468,340", 
+                    "time": 21.298
+                }
+            }, 
+            "tri-cnt-avx2-roaring-deg": {
+                "PreProcess-": {
+                    "mem": "9,465,780", 
+                    "time": 5.928
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,492", 
+                    "time": 3.428
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "9,468,216", 
+                    "time": 21.327
+                }
+            }, 
+            "tri-cnt-naive-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,472", 
+                    "time": 3.463
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,086,636", 
+                    "time": 39.642
+                }
+            }, 
+            "tri-cnt-naive-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,476", 
+                    "time": 3.489
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,090,692", 
+                    "time": 36.357
+                }
+            }, 
+            "tri-cnt-avx2-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,492", 
+                    "time": 3.492
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,088,768", 
+                    "time": 24.959
+                }
+            }, 
+            "tri-cnt-naive-bitvec-2d-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,484", 
+                    "time": 3.513
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,031,072", 
+                    "time": 28.373
+                }
+            }, 
+            "tri-cnt-sse-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "8,172,116", 
+                    "time": 5.502
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,776", 
+                    "time": 3.514
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,175,280", 
+                    "time": 39.461
+                }
+            }, 
+            "tri-cnt-naive-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,476", 
+                    "time": 3.555
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,092,760", 
+                    "time": 39.618
+                }
+            }, 
+            "tri-cnt-sse-eh-uint-deg": {
+                "PreProcess-": {
+                    "mem": "6,258,736", 
+                    "time": 2.985
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,488", 
+                    "time": 3.51
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "6,262,316", 
+                    "time": 28.785
+                }
+            }, 
+            "tri-cnt-naive-bitvec-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,480", 
+                    "time": 3.461
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,031,064", 
+                    "time": 23.65
+                }
+            }, 
+            "tri-cnt-sse-han-qfilter-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,764", 
+                    "time": 3.521
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,084,884", 
+                    "time": 24.859
+                }
+            }, 
+            "tri-cnt-sse-han-bmiss-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,957,892", 
+                    "time": 3.482
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,103,260", 
+                    "time": 26.8
+                }
+            }, 
+            "tri-cnt-sse-lemire-high-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,476", 
+                    "time": 3.499
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,088,648", 
+                    "time": 26.366
+                }
+            }, 
+            "tri-cnt-naive-bsr-scalar-merge-deg": {
+                "PreProcess-": {
+                    "mem": "8,172,432", 
+                    "time": 5.304
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,776", 
+                    "time": 3.482
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,175,268", 
+                    "time": 39.509
+                }
+            }, 
+            "tri-cnt-avx-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,496", 
+                    "time": 3.508
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,086,636", 
+                    "time": 25.714
+                }
+            }, 
+            "tri-cnt-avx2-galloping-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,480", 
+                    "time": 3.49
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,088,724", 
+                    "time": 34.578
+                }
+            }, 
+            "tri-cnt-sse-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,480", 
+                    "time": 3.469
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,086,640", 
+                    "time": 26.2
+                }
+            }, 
+            "tri-cnt-avx2-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,476", 
+                    "time": 3.488
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,090,756", 
+                    "time": 24.323
+                }
+            }, 
+            "tri-cnt-sse-hybrid-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,472", 
+                    "time": 3.622
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,090,616", 
+                    "time": 27.434
+                }
+            }, 
+            "tri-cnt-sse-eh-hybrid-deg": {
+                "PreProcess-": {
+                    "mem": "6,631,460", 
+                    "time": 3.25
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,488", 
+                    "time": 3.511
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "6,633,372", 
+                    "time": 24.118
+                }
+            }, 
+            "tri-cnt-avx2-asm-tetzank-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,496", 
+                    "time": 3.286
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,084,600", 
+                    "time": 24.126
+                }
+            }, 
+            "tri-cnt-sse-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,480", 
+                    "time": 3.471
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,094,836", 
+                    "time": 33.286
+                }
+            }, 
+            "tri-cnt-avx2-lemire-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,476", 
+                    "time": 3.486
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,088,660", 
+                    "time": 26.097
+                }
+            }, 
+            "tri-cnt-avx2-pivot-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,480", 
+                    "time": 3.492
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,088,684", 
+                    "time": 31.825
+                }
+            }, 
+            "tri-cnt-naive-merge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,480", 
+                    "time": 3.479
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,087,884", 
+                    "time": 36.622
+                }
+            }, 
+            "tri-cnt-naive-hash-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,480", 
+                    "time": 3.44
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,007,680", 
+                    "time": 127.883
+                }
+            }, 
+            "tri-cnt-avx2-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,476", 
+                    "time": 3.533
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,084,560", 
+                    "time": 24.135
+                }
+            }, 
+            "tri-cnt-sse-bmerge-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,476", 
+                    "time": 3.475
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,087,632", 
+                    "time": 27.408
+                }
+            }, 
+            "tri-cnt-naive-bsr-galloping-deg": {
+                "PreProcess-": {
+                    "mem": "8,172,572", 
+                    "time": 5.415
+                }, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,780", 
+                    "time": 3.5
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "8,175,240", 
+                    "time": 43.635
+                }
+            }, 
+            "tri-cnt-naive-hash-spp-deg": {
+                "PreProcess-": null, 
+                "PreProcess Reordering Cost": {
+                    "mem": "7,951,484", 
+                    "time": 3.492
+                }, 
+                "is_time_out": null, 
+                "Forward cost": {
+                    "mem": "4,007,076", 
+                    "time": 165.613
+                }
+            }
+        }
+    }
+}

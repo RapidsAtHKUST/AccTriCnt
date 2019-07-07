@@ -1,0 +1,3602 @@
+{
+    "snap_pokec": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.172, 
+                "Step4 - output to the disk cost": {
+                    "mem": "438,588", 
+                    "time": 0.398
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "387,144", 
+                    "time": 0.01
+                }, 
+                "CUDA driver and malloc cost": 0.004545999999999967, 
+                "Step4 - prepare results": {
+                    "mem": "438,468", 
+                    "time": 0.029
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "313,316", 
+                    "time": 0.282
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "390,492", 
+                    "time": 0.018
+                }, 
+                "CUDA Kernel Time": 0.16745400000000002, 
+                "bin-search cost": {
+                    "mem": "280,748", 
+                    "time": 0.074
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "397,480", 
+                    "time": 0.003
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "313,308", 
+                    "time": 0.034
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.129, 
+                "Step4 - output to the disk cost": {
+                    "mem": "439,144", 
+                    "time": 0.426
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "387,972", 
+                    "time": 0.011
+                }, 
+                "CUDA driver and malloc cost": 0.0032949999999999924, 
+                "Step4 - prepare results": {
+                    "mem": "439,036", 
+                    "time": 0.026
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "301,508", 
+                    "time": 0.227
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "388,172", 
+                    "time": 0.017
+                }, 
+                "CUDA Kernel Time": 0.125705, 
+                "bin-search cost": {
+                    "mem": "271,556", 
+                    "time": 0.069
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "395,160", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "301,500", 
+                    "time": 0.026
+                }
+            }
+        }
+    }, 
+    "webgraph_webbase/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": 0.0, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 9.206, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,946,336", 
+                    "time": 28.634
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,393,636", 
+                    "time": 0.511
+                }, 
+                "CUDA driver and malloc cost": 0.03477200000000025, 
+                "Step4 - prepare results": {
+                    "mem": "13,946,336", 
+                    "time": 2.643
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,439,992", 
+                    "time": 12.036
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,430,900", 
+                    "time": 0.646
+                }, 
+                "CUDA Kernel Time": 9.171228, 
+                "bin-search cost": {
+                    "mem": "10,303,944", 
+                    "time": 1.952
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,895,472", 
+                    "time": 0.279
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,439,992", 
+                    "time": 0.875
+                }
+            }
+        }
+    }, 
+    "small_snap_web_stanford": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.009, 
+                "Step4 - output to the disk cost": {
+                    "mem": "116,024", 
+                    "time": 0.12
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "98,520", 
+                    "time": 0.001
+                }, 
+                "CUDA driver and malloc cost": 0.0022619999999999993, 
+                "Step4 - prepare results": {
+                    "mem": "115,980", 
+                    "time": 0.004
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "93,468", 
+                    "time": 0.018
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "99,692", 
+                    "time": 0.002
+                }, 
+                "CUDA Kernel Time": 0.006738, 
+                "bin-search cost": {
+                    "mem": "93,304", 
+                    "time": 0.003
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "101,008", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "93,452", 
+                    "time": 0.003
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.01, 
+                "Step4 - output to the disk cost": {
+                    "mem": "117,524", 
+                    "time": 0.179
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "99,584", 
+                    "time": 0.006
+                }, 
+                "CUDA driver and malloc cost": 0.0035770000000000003, 
+                "Step4 - prepare results": {
+                    "mem": "117,484", 
+                    "time": 0.008
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "94,648", 
+                    "time": 0.025
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "99,620", 
+                    "time": 0.007
+                }, 
+                "CUDA Kernel Time": 0.006423, 
+                "bin-search cost": {
+                    "mem": "94,484", 
+                    "time": 0.003
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "100,936", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "94,632", 
+                    "time": 0.01
+                }
+            }
+        }
+    }, 
+    "n25_m40_1billion_edge": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 11.185, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,432,732", 
+                    "time": 0.026
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,335,072", 
+                    "time": 0.004
+                }, 
+                "CUDA driver and malloc cost": 0.006892000000000564, 
+                "Step4 - prepare results": {
+                    "mem": "18,432,732", 
+                    "time": 0.001
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,154,856", 
+                    "time": 21.993
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,335,072", 
+                    "time": 0.92
+                }, 
+                "CUDA Kernel Time": 11.178108, 
+                "bin-search cost": {
+                    "mem": "16,182,064", 
+                    "time": 8.116
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,432,592", 
+                    "time": 0.042
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,154,856", 
+                    "time": 2.69
+                }
+            }
+        }
+    }, 
+    "lfr_dataset": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 3.091, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,289,072", 
+                    "time": 0.933
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,276,480", 
+                    "time": 0.255
+                }, 
+                "CUDA driver and malloc cost": 0.006098000000000159, 
+                "Step4 - prepare results": {
+                    "mem": "2,289,072", 
+                    "time": 0.137
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,094,592", 
+                    "time": 4.055
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,276,480", 
+                    "time": 0.004
+                }, 
+                "CUDA Kernel Time": 3.084902, 
+                "bin-search cost": {
+                    "mem": "1,762,716", 
+                    "time": 0.822
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,289,036", 
+                    "time": 0.01
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,094,592", 
+                    "time": 0.139
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.254, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,287,072", 
+                    "time": 1.017
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,274,464", 
+                    "time": 0.28
+                }, 
+                "CUDA driver and malloc cost": 0.0031640000000003887, 
+                "Step4 - prepare results": {
+                    "mem": "2,287,064", 
+                    "time": 0.146
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "1,932,920", 
+                    "time": 3.237
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,274,464", 
+                    "time": 0.004
+                }, 
+                "CUDA Kernel Time": 2.2508359999999996, 
+                "bin-search cost": {
+                    "mem": "1,578,996", 
+                    "time": 0.857
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,287,016", 
+                    "time": 0.01
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "1,932,920", 
+                    "time": 0.124
+                }
+            }
+        }
+    }, 
+    "lfr_dataset/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.928, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,289,096", 
+                    "time": 1.081
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,276,504", 
+                    "time": 0.261
+                }, 
+                "CUDA driver and malloc cost": 0.005830000000000002, 
+                "Step4 - prepare results": {
+                    "mem": "2,289,096", 
+                    "time": 0.114
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,072,852", 
+                    "time": 3.817
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,276,504", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 2.92217, 
+                "bin-search cost": {
+                    "mem": "1,811,400", 
+                    "time": 0.756
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,289,032", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,072,852", 
+                    "time": 0.13
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 3.007, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,289,056", 
+                    "time": 1.05
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,276,460", 
+                    "time": 0.253
+                }, 
+                "CUDA driver and malloc cost": 0.003373999999999988, 
+                "Step4 - prepare results": {
+                    "mem": "2,289,056", 
+                    "time": 0.108
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,130,352", 
+                    "time": 3.869
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,276,460", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 3.003626, 
+                "bin-search cost": {
+                    "mem": "1,873,704", 
+                    "time": 0.736
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,289,048", 
+                    "time": 0.006
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,130,352", 
+                    "time": 0.124
+                }
+            }
+        }
+    }, 
+    "small_snap_web_notredame": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.015, 
+                "Step4 - output to the disk cost": {
+                    "mem": "119,996", 
+                    "time": 0.137
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "101,532", 
+                    "time": 0.005
+                }, 
+                "CUDA driver and malloc cost": 0.0029519999999999998, 
+                "Step4 - prepare results": {
+                    "mem": "119,928", 
+                    "time": 0.006
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "99,060", 
+                    "time": 0.032
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "101,572", 
+                    "time": 0.007
+                }, 
+                "CUDA Kernel Time": 0.012048, 
+                "bin-search cost": {
+                    "mem": "96,284", 
+                    "time": 0.005
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "103,152", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "99,040", 
+                    "time": 0.01
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.012, 
+                "Step4 - output to the disk cost": {
+                    "mem": "119,236", 
+                    "time": 0.182
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "101,404", 
+                    "time": 0.005
+                }, 
+                "CUDA driver and malloc cost": 0.002954, 
+                "Step4 - prepare results": {
+                    "mem": "119,040", 
+                    "time": 0.004
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "98,636", 
+                    "time": 0.029
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "104,504", 
+                    "time": 0.004
+                }, 
+                "CUDA Kernel Time": 0.009046, 
+                "bin-search cost": {
+                    "mem": "97,332", 
+                    "time": 0.005
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "106,084", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "98,616", 
+                    "time": 0.01
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n6000000_k40_C0dot3_Bin": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.629, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,461,952", 
+                    "time": 1.978
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,410,688", 
+                    "time": 0.263
+                }, 
+                "CUDA driver and malloc cost": 0.0060069999999998736, 
+                "Step4 - prepare results": {
+                    "mem": "2,461,952", 
+                    "time": 0.265
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "1,999,488", 
+                    "time": 3.657
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,410,688", 
+                    "time": 0.019
+                }, 
+                "CUDA Kernel Time": 2.622993, 
+                "bin-search cost": {
+                    "mem": "1,746,904", 
+                    "time": 0.865
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,436,112", 
+                    "time": 0.012
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "1,999,264", 
+                    "time": 0.16
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 1.865, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,465,224", 
+                    "time": 1.991
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,414,584", 
+                    "time": 0.31
+                }, 
+                "CUDA driver and malloc cost": 0.0034490000000000354, 
+                "Step4 - prepare results": {
+                    "mem": "2,465,220", 
+                    "time": 0.219
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,043,668", 
+                    "time": 2.874
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,414,584", 
+                    "time": 0.018
+                }, 
+                "CUDA Kernel Time": 1.861551, 
+                "bin-search cost": {
+                    "mem": "1,799,788", 
+                    "time": 0.85
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,440,216", 
+                    "time": 0.014
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,043,440", 
+                    "time": 0.157
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n2400000_k100_C0dot3_Bin/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 3.247, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,253,788", 
+                    "time": 0.79
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,243,748", 
+                    "time": 0.209
+                }, 
+                "CUDA driver and malloc cost": 0.006708000000000158, 
+                "Step4 - prepare results": {
+                    "mem": "2,253,788", 
+                    "time": 0.099
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,099,548", 
+                    "time": 4.108
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,243,784", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 3.2402919999999997, 
+                "bin-search cost": {
+                    "mem": "1,831,588", 
+                    "time": 0.738
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,253,764", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,099,532", 
+                    "time": 0.121
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.471, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,254,264", 
+                    "time": 0.837
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,244,116", 
+                    "time": 0.275
+                }, 
+                "CUDA driver and malloc cost": 0.0047240000000003946, 
+                "Step4 - prepare results": {
+                    "mem": "2,254,264", 
+                    "time": 0.115
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,103,160", 
+                    "time": 3.331
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,244,116", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 2.4662759999999997, 
+                "bin-search cost": {
+                    "mem": "1,815,972", 
+                    "time": 0.736
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,254,256", 
+                    "time": 0.009
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,103,156", 
+                    "time": 0.122
+                }
+            }
+        }
+    }, 
+    "n50_m20_1billion_edge": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 9.963, 
+                "Step4 - output to the disk cost": {
+                    "mem": "19,193,252", 
+                    "time": 0.124
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,997,932", 
+                    "time": 0.007
+                }, 
+                "CUDA driver and malloc cost": 0.015305999999998932, 
+                "Step4 - prepare results": {
+                    "mem": "19,193,248", 
+                    "time": 0.003
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,651,848", 
+                    "time": 20.84
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,997,932", 
+                    "time": 1.137
+                }, 
+                "CUDA Kernel Time": 9.947694, 
+                "bin-search cost": {
+                    "mem": "16,688,344", 
+                    "time": 7.744
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "19,193,248", 
+                    "time": 0.08
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,651,848", 
+                    "time": 3.13
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot3_Bin": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.818, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,342,016", 
+                    "time": 1.3
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,321,460", 
+                    "time": 0.245
+                }, 
+                "CUDA driver and malloc cost": 0.008061999999999792, 
+                "Step4 - prepare results": {
+                    "mem": "2,342,012", 
+                    "time": 0.17
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,068,264", 
+                    "time": 3.781
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,322,100", 
+                    "time": 0.003
+                }, 
+                "CUDA Kernel Time": 2.8099380000000003, 
+                "bin-search cost": {
+                    "mem": "1,729,684", 
+                    "time": 0.828
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,339,236", 
+                    "time": 0.01
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,068,264", 
+                    "time": 0.133
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.03, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,343,492", 
+                    "time": 1.333
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,323,640", 
+                    "time": 0.243
+                }, 
+                "CUDA driver and malloc cost": 0.004193999999999587, 
+                "Step4 - prepare results": {
+                    "mem": "2,343,488", 
+                    "time": 0.192
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "1,979,124", 
+                    "time": 3.003
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,323,640", 
+                    "time": 0.003
+                }, 
+                "CUDA Kernel Time": 2.025806, 
+                "bin-search cost": {
+                    "mem": "1,655,008", 
+                    "time": 0.84
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,340,320", 
+                    "time": 0.008
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "1,979,124", 
+                    "time": 0.131
+                }
+            }
+        }
+    }, 
+    "webgraph_twitter": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 132.028, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,603,348", 
+                    "time": 3.389
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,228,796", 
+                    "time": 0.44
+                }, 
+                "CUDA driver and malloc cost": 0.0196719999999857, 
+                "Step4 - prepare results": {
+                    "mem": "13,603,184", 
+                    "time": 0.919
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,799,428", 
+                    "time": 138.866
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,231,680", 
+                    "time": 0.876
+                }, 
+                "CUDA Kernel Time": 132.008328, 
+                "bin-search cost": {
+                    "mem": "11,370,884", 
+                    "time": 5.501
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,413,236", 
+                    "time": 0.073
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,799,428", 
+                    "time": 1.334
+                }
+            }
+        }
+    }, 
+    "n16dot7_m60_1billion_edge": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 13.575, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,217,964", 
+                    "time": 0.019
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,152,728", 
+                    "time": 0.003
+                }, 
+                "CUDA driver and malloc cost": 0.014448999999999046, 
+                "Step4 - prepare results": {
+                    "mem": "18,217,964", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,032,880", 
+                    "time": 23.882
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,152,728", 
+                    "time": 0.76
+                }, 
+                "CUDA Kernel Time": 13.560551, 
+                "bin-search cost": {
+                    "mem": "16,051,996", 
+                    "time": 8.023
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,217,964", 
+                    "time": 0.026
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,032,880", 
+                    "time": 2.281
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 13.465, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,216,040", 
+                    "time": 0.048
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,150,796", 
+                    "time": 0.003
+                }, 
+                "CUDA driver and malloc cost": 0.009325999999999723, 
+                "Step4 - prepare results": {
+                    "mem": "18,216,040", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,034,868", 
+                    "time": 24.118
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,150,804", 
+                    "time": 0.769
+                }, 
+                "CUDA Kernel Time": 13.455674, 
+                "bin-search cost": {
+                    "mem": "16,058,620", 
+                    "time": 8.339
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,216,040", 
+                    "time": 0.026
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,034,868", 
+                    "time": 2.31
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n3000000_k80_C0dot3_Bin/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 3.047, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,289,148", 
+                    "time": 1.01
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,276,548", 
+                    "time": 0.216
+                }, 
+                "CUDA driver and malloc cost": 0.006552000000000113, 
+                "Step4 - prepare results": {
+                    "mem": "2,289,148", 
+                    "time": 0.112
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,102,192", 
+                    "time": 3.923
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,276,548", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 3.040448, 
+                "bin-search cost": {
+                    "mem": "1,827,700", 
+                    "time": 0.752
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,289,096", 
+                    "time": 0.006
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,102,192", 
+                    "time": 0.122
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.214, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,287,032", 
+                    "time": 1.018
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,274,360", 
+                    "time": 0.212
+                }, 
+                "CUDA driver and malloc cost": 0.0044879999999998255, 
+                "Step4 - prepare results": {
+                    "mem": "2,287,032", 
+                    "time": 0.115
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,134,260", 
+                    "time": 3.075
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,274,360", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 2.209512, 
+                "bin-search cost": {
+                    "mem": "1,858,028", 
+                    "time": 0.735
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,286,916", 
+                    "time": 0.006
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,134,260", 
+                    "time": 0.123
+                }
+            }
+        }
+    }, 
+    "webgraph_uk": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 4.424, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,589,296", 
+                    "time": 4.463
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,233,664", 
+                    "time": 0.078
+                }, 
+                "CUDA driver and malloc cost": 0.014938000000000784, 
+                "Step4 - prepare results": {
+                    "mem": "3,589,296", 
+                    "time": 0.192
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,839,668", 
+                    "time": 4.875
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,233,964", 
+                    "time": 0.095
+                }, 
+                "CUDA Kernel Time": 4.409062, 
+                "bin-search cost": {
+                    "mem": "2,539,388", 
+                    "time": 0.329
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,322,532", 
+                    "time": 0.035
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,839,668", 
+                    "time": 0.119
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.516, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,587,260", 
+                    "time": 4.567
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,231,736", 
+                    "time": 0.072
+                }, 
+                "CUDA driver and malloc cost": 0.005322999999999745, 
+                "Step4 - prepare results": {
+                    "mem": "3,587,256", 
+                    "time": 0.185
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,797,416", 
+                    "time": 2.961
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,231,924", 
+                    "time": 0.088
+                }, 
+                "CUDA Kernel Time": 2.5106770000000003, 
+                "bin-search cost": {
+                    "mem": "2,452,316", 
+                    "time": 0.328
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,320,320", 
+                    "time": 0.034
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,797,412", 
+                    "time": 0.115
+                }
+            }
+        }
+    }, 
+    "snap_livejournal": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.346, 
+                "Step4 - output to the disk cost": {
+                    "mem": "923,688", 
+                    "time": 1.052
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "805,232", 
+                    "time": 0.035
+                }, 
+                "CUDA driver and malloc cost": 0.006828999999999974, 
+                "Step4 - prepare results": {
+                    "mem": "923,640", 
+                    "time": 0.073
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "599,552", 
+                    "time": 0.535
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "806,000", 
+                    "time": 0.029
+                }, 
+                "CUDA Kernel Time": 0.339171, 
+                "bin-search cost": {
+                    "mem": "531,556", 
+                    "time": 0.143
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "822,416", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "599,400", 
+                    "time": 0.044
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.33, 
+                "Step4 - output to the disk cost": {
+                    "mem": "924,228", 
+                    "time": 1.121
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "806,240", 
+                    "time": 0.035
+                }, 
+                "CUDA driver and malloc cost": 0.0033420000000000116, 
+                "Step4 - prepare results": {
+                    "mem": "924,212", 
+                    "time": 0.073
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "629,556", 
+                    "time": 0.522
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "809,080", 
+                    "time": 0.03
+                }, 
+                "CUDA Kernel Time": 0.326658, 
+                "bin-search cost": {
+                    "mem": "561,816", 
+                    "time": 0.146
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "825,300", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "629,404", 
+                    "time": 0.044
+                }
+            }
+        }
+    }, 
+    "snap_friendster/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": null, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": null, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }
+    }, 
+    "webgraph_twitter/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 23.271, 
+                "Step4 - output to the disk cost": {
+                    "mem": "13,608,692", 
+                    "time": 3.021
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "13,222,232", 
+                    "time": 0.704
+                }, 
+                "CUDA driver and malloc cost": 0.010625000000000995, 
+                "Step4 - prepare results": {
+                    "mem": "13,608,692", 
+                    "time": 1.848
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "12,864,028", 
+                    "time": 30.331
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "13,224,284", 
+                    "time": 1.833
+                }, 
+                "CUDA Kernel Time": 23.260375, 
+                "bin-search cost": {
+                    "mem": "11,397,084", 
+                    "time": 5.935
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "13,405,864", 
+                    "time": 0.077
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "12,864,028", 
+                    "time": 1.123
+                }
+            }
+        }
+    }, 
+    "small_snap_web_berkstan": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.02, 
+                "Step4 - output to the disk cost": {
+                    "mem": "154,348", 
+                    "time": 0.217
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "119,156", 
+                    "time": 0.003
+                }, 
+                "CUDA driver and malloc cost": 0.003091, 
+                "Step4 - prepare results": {
+                    "mem": "154,244", 
+                    "time": 0.009
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "113,304", 
+                    "time": 0.03
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "119,840", 
+                    "time": 0.004
+                }, 
+                "CUDA Kernel Time": 0.016909, 
+                "bin-search cost": {
+                    "mem": "109,028", 
+                    "time": 0.005
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "123,008", 
+                    "time": 0.002
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "113,244", 
+                    "time": 0.003
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.02, 
+                "Step4 - output to the disk cost": {
+                    "mem": "159,588", 
+                    "time": 0.295
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "130,720", 
+                    "time": 0.005
+                }, 
+                "CUDA driver and malloc cost": 0.002768999999999997, 
+                "Step4 - prepare results": {
+                    "mem": "159,588", 
+                    "time": 0.012
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "117,420", 
+                    "time": 0.04
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "130,808", 
+                    "time": 0.008
+                }, 
+                "CUDA Kernel Time": 0.017231000000000003, 
+                "bin-search cost": {
+                    "mem": "113,336", 
+                    "time": 0.006
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "133,972", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "117,360", 
+                    "time": 0.011
+                }
+            }
+        }
+    }, 
+    "snap_orkut": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.102, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,279,208", 
+                    "time": 0.655
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,238,620", 
+                    "time": 0.066
+                }, 
+                "CUDA driver and malloc cost": 0.004842999999999709, 
+                "Step4 - prepare results": {
+                    "mem": "2,278,972", 
+                    "time": 0.057
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,089,044", 
+                    "time": 2.853
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,238,728", 
+                    "time": 0.051
+                }, 
+                "CUDA Kernel Time": 2.097157, 
+                "bin-search cost": {
+                    "mem": "1,819,628", 
+                    "time": 0.622
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,250,932", 
+                    "time": 0.006
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,089,044", 
+                    "time": 0.126
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 1.987, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,282,912", 
+                    "time": 0.705
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,240,504", 
+                    "time": 0.068
+                }, 
+                "CUDA driver and malloc cost": 0.0033570000000000544, 
+                "Step4 - prepare results": {
+                    "mem": "2,282,820", 
+                    "time": 0.057
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,103,492", 
+                    "time": 2.721
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,240,700", 
+                    "time": 0.048
+                }, 
+                "CUDA Kernel Time": 1.983643, 
+                "bin-search cost": {
+                    "mem": "1,828,820", 
+                    "time": 0.606
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,252,764", 
+                    "time": 0.005
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,103,492", 
+                    "time": 0.125
+                }
+            }
+        }
+    }, 
+    "small_snap_web_berkstan/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.021, 
+                "Step4 - output to the disk cost": {
+                    "mem": "148,240", 
+                    "time": 0.263
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "125,416", 
+                    "time": 0.006
+                }, 
+                "CUDA driver and malloc cost": 0.0037149999999999996, 
+                "Step4 - prepare results": {
+                    "mem": "148,072", 
+                    "time": 0.013
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "120,512", 
+                    "time": 0.043
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "126,628", 
+                    "time": 0.008
+                }, 
+                "CUDA Kernel Time": 0.017285000000000002, 
+                "bin-search cost": {
+                    "mem": "110,992", 
+                    "time": 0.008
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "129,792", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "120,452", 
+                    "time": 0.012
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.019, 
+                "Step4 - output to the disk cost": {
+                    "mem": "143,176", 
+                    "time": 0.27
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "121,688", 
+                    "time": 0.007
+                }, 
+                "CUDA driver and malloc cost": 0.0030419999999999996, 
+                "Step4 - prepare results": {
+                    "mem": "143,088", 
+                    "time": 0.01
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "115,440", 
+                    "time": 0.041
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "122,748", 
+                    "time": 0.009
+                }, 
+                "CUDA Kernel Time": 0.015958, 
+                "bin-search cost": {
+                    "mem": "109,676", 
+                    "time": 0.009
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "126,108", 
+                    "time": 0.003
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "115,384", 
+                    "time": 0.011
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n2400000_k100_C0dot3_Bin": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 3.723, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,254,856", 
+                    "time": 0.799
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,244,848", 
+                    "time": 0.292
+                }, 
+                "CUDA driver and malloc cost": 0.005041999999999991, 
+                "Step4 - prepare results": {
+                    "mem": "2,254,852", 
+                    "time": 0.118
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,041,956", 
+                    "time": 4.664
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,244,848", 
+                    "time": 0.001
+                }, 
+                "CUDA Kernel Time": 3.717958, 
+                "bin-search cost": {
+                    "mem": "1,616,492", 
+                    "time": 0.816
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,254,832", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,041,956", 
+                    "time": 0.122
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.555, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,251,684", 
+                    "time": 0.806
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,241,632", 
+                    "time": 0.263
+                }, 
+                "CUDA driver and malloc cost": 0.003946000000000005, 
+                "Step4 - prepare results": {
+                    "mem": "2,251,680", 
+                    "time": 0.141
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,030,040", 
+                    "time": 3.489
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,241,668", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 2.551054, 
+                "bin-search cost": {
+                    "mem": "1,697,760", 
+                    "time": 0.81
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,251,436", 
+                    "time": 0.005
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,030,040", 
+                    "time": 0.122
+                }
+            }
+        }
+    }, 
+    "webgraph_webbase": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": 0.0, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 106.166, 
+                "Step4 - output to the disk cost": {
+                    "mem": "14,777,360", 
+                    "time": 27.721
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "12,442,872", 
+                    "time": 0.187
+                }, 
+                "CUDA driver and malloc cost": 0.026499999999998636, 
+                "Step4 - prepare results": {
+                    "mem": "14,777,228", 
+                    "time": 0.99
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "11,563,584", 
+                    "time": 107.529
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "12,446,584", 
+                    "time": 0.548
+                }, 
+                "CUDA Kernel Time": 106.1395, 
+                "bin-search cost": {
+                    "mem": "10,440,712", 
+                    "time": 0.949
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "12,908,208", 
+                    "time": 0.234
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "11,563,584", 
+                    "time": 0.411
+                }
+            }
+        }
+    }, 
+    "n50_m20_1billion_edge/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 8.297, 
+                "Step4 - output to the disk cost": {
+                    "mem": "19,193,176", 
+                    "time": 0.067
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,997,856", 
+                    "time": 0.007
+                }, 
+                "CUDA driver and malloc cost": 0.015529000000000792, 
+                "Step4 - prepare results": {
+                    "mem": "19,193,172", 
+                    "time": 0.003
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,646,964", 
+                    "time": 19.184
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,997,856", 
+                    "time": 1.193
+                }, 
+                "CUDA Kernel Time": 8.281471, 
+                "bin-search cost": {
+                    "mem": "16,659,436", 
+                    "time": 7.756
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "19,192,952", 
+                    "time": 0.107
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,646,964", 
+                    "time": 3.127
+                }
+            }
+        }
+    }, 
+    "small_snap_web_stanford/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.01, 
+                "Step4 - output to the disk cost": {
+                    "mem": "109,576", 
+                    "time": 0.11
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "99,668", 
+                    "time": 0.006
+                }, 
+                "CUDA driver and malloc cost": 0.0034160000000000006, 
+                "Step4 - prepare results": {
+                    "mem": "109,496", 
+                    "time": 0.006
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "95,104", 
+                    "time": 0.028
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "100,648", 
+                    "time": 0.007
+                }, 
+                "CUDA Kernel Time": 0.006584, 
+                "bin-search cost": {
+                    "mem": "94,492", 
+                    "time": 0.004
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "101,964", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "95,088", 
+                    "time": 0.012
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.01, 
+                "Step4 - output to the disk cost": {
+                    "mem": "104,424", 
+                    "time": 0.156
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "95,144", 
+                    "time": 0.002
+                }, 
+                "CUDA driver and malloc cost": 0.0034690000000000007, 
+                "Step4 - prepare results": {
+                    "mem": "104,344", 
+                    "time": 0.004
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "93,704", 
+                    "time": 0.025
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "95,424", 
+                    "time": 0.002
+                }, 
+                "CUDA Kernel Time": 0.0065309999999999995, 
+                "bin-search cost": {
+                    "mem": "93,552", 
+                    "time": 0.004
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "96,740", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "93,688", 
+                    "time": 0.009
+                }
+            }
+        }
+    }, 
+    "small_snap_web_notredame/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.011, 
+                "Step4 - output to the disk cost": {
+                    "mem": "111,864", 
+                    "time": 0.157
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "99,300", 
+                    "time": 0.003
+                }, 
+                "CUDA driver and malloc cost": 0.0028970000000000003, 
+                "Step4 - prepare results": {
+                    "mem": "111,740", 
+                    "time": 0.005
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "97,728", 
+                    "time": 0.021
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "99,340", 
+                    "time": 0.003
+                }, 
+                "CUDA Kernel Time": 0.008102999999999999, 
+                "bin-search cost": {
+                    "mem": "97,304", 
+                    "time": 0.004
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "100,924", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "97,708", 
+                    "time": 0.003
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.011, 
+                "Step4 - output to the disk cost": {
+                    "mem": "111,972", 
+                    "time": 0.162
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "99,552", 
+                    "time": 0.006
+                }, 
+                "CUDA driver and malloc cost": 0.0032359999999999993, 
+                "Step4 - prepare results": {
+                    "mem": "111,848", 
+                    "time": 0.005
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "96,508", 
+                    "time": 0.03
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "100,172", 
+                    "time": 0.003
+                }, 
+                "CUDA Kernel Time": 0.007764, 
+                "bin-search cost": {
+                    "mem": "94,816", 
+                    "time": 0.004
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "101,752", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "96,488", 
+                    "time": 0.013
+                }
+            }
+        }
+    }, 
+    "snap_friendster": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": null, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": null, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }
+    }, 
+    "small_snap_dblp/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.015, 
+                "Step4 - output to the disk cost": {
+                    "mem": "132,176", 
+                    "time": 0.181
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "114,980", 
+                    "time": 0.005
+                }, 
+                "CUDA driver and malloc cost": 0.003471, 
+                "Step4 - prepare results": {
+                    "mem": "132,136", 
+                    "time": 0.009
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "107,760", 
+                    "time": 0.026
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "115,268", 
+                    "time": 0.003
+                }, 
+                "CUDA Kernel Time": 0.011529, 
+                "bin-search cost": {
+                    "mem": "101,840", 
+                    "time": 0.007
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "116,848", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "107,728", 
+                    "time": 0.002
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.014, 
+                "Step4 - output to the disk cost": {
+                    "mem": "130,120", 
+                    "time": 0.177
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "113,060", 
+                    "time": 0.006
+                }, 
+                "CUDA driver and malloc cost": 0.003451000000000001, 
+                "Step4 - prepare results": {
+                    "mem": "130,080", 
+                    "time": 0.009
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "102,956", 
+                    "time": 0.035
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "113,584", 
+                    "time": 0.003
+                }, 
+                "CUDA Kernel Time": 0.010549, 
+                "bin-search cost": {
+                    "mem": "97,740", 
+                    "time": 0.007
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "115,164", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "102,924", 
+                    "time": 0.011
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot1_Bin": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.801, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,343,436", 
+                    "time": 1.248
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,323,560", 
+                    "time": 0.292
+                }, 
+                "CUDA driver and malloc cost": 0.007713000000000303, 
+                "Step4 - prepare results": {
+                    "mem": "2,343,432", 
+                    "time": 0.16
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,072,872", 
+                    "time": 3.773
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,323,560", 
+                    "time": 0.002
+                }, 
+                "CUDA Kernel Time": 2.793287, 
+                "bin-search cost": {
+                    "mem": "1,699,196", 
+                    "time": 0.836
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,340,308", 
+                    "time": 0.009
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,072,872", 
+                    "time": 0.134
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.025, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,345,508", 
+                    "time": 1.358
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,325,772", 
+                    "time": 0.224
+                }, 
+                "CUDA driver and malloc cost": 0.004525999999999808, 
+                "Step4 - prepare results": {
+                    "mem": "2,345,504", 
+                    "time": 0.173
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,050,360", 
+                    "time": 3.024
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,325,772", 
+                    "time": 0.002
+                }, 
+                "CUDA Kernel Time": 2.020474, 
+                "bin-search cost": {
+                    "mem": "1,738,472", 
+                    "time": 0.864
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,342,452", 
+                    "time": 0.009
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,050,360", 
+                    "time": 0.132
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n6000000_k40_C0dot3_Bin/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.258, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,462,820", 
+                    "time": 1.965
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,410,680", 
+                    "time": 0.245
+                }, 
+                "CUDA driver and malloc cost": 0.006918000000000202, 
+                "Step4 - prepare results": {
+                    "mem": "2,462,816", 
+                    "time": 0.225
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,205,132", 
+                    "time": 3.21
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,410,680", 
+                    "time": 0.019
+                }, 
+                "CUDA Kernel Time": 2.251082, 
+                "bin-search cost": {
+                    "mem": "1,945,952", 
+                    "time": 0.792
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,436,096", 
+                    "time": 0.013
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,204,916", 
+                    "time": 0.158
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 1.526, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,463,108", 
+                    "time": 1.967
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,409,152", 
+                    "time": 0.229
+                }, 
+                "CUDA driver and malloc cost": 0.0033530000000001614, 
+                "Step4 - prepare results": {
+                    "mem": "2,462,916", 
+                    "time": 0.242
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,190,084", 
+                    "time": 2.456
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,409,152", 
+                    "time": 0.017
+                }, 
+                "CUDA Kernel Time": 1.5226469999999999, 
+                "bin-search cost": {
+                    "mem": "1,941,272", 
+                    "time": 0.77
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,434,784", 
+                    "time": 0.012
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,189,856", 
+                    "time": 0.157
+                }
+            }
+        }
+    }, 
+    "small_snap_dblp": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.015, 
+                "Step4 - output to the disk cost": {
+                    "mem": "135,812", 
+                    "time": 0.159
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "119,852", 
+                    "time": 0.005
+                }, 
+                "CUDA driver and malloc cost": 0.0022719999999999997, 
+                "Step4 - prepare results": {
+                    "mem": "135,652", 
+                    "time": 0.008
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "114,296", 
+                    "time": 0.029
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "119,904", 
+                    "time": 0.003
+                }, 
+                "CUDA Kernel Time": 0.012728, 
+                "bin-search cost": {
+                    "mem": "95,188", 
+                    "time": 0.007
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "121,484", 
+                    "time": 0.001
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "114,264", 
+                    "time": 0.004
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.013, 
+                "Step4 - output to the disk cost": {
+                    "mem": "131,444", 
+                    "time": 0.216
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "116,432", 
+                    "time": 0.009
+                }, 
+                "CUDA driver and malloc cost": 0.0021659999999999995, 
+                "Step4 - prepare results": {
+                    "mem": "131,420", 
+                    "time": 0.013
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "109,620", 
+                    "time": 0.035
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "116,484", 
+                    "time": 0.007
+                }, 
+                "CUDA Kernel Time": 0.010834, 
+                "bin-search cost": {
+                    "mem": "96,852", 
+                    "time": 0.01
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "118,064", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "109,584", 
+                    "time": 0.009
+                }
+            }
+        }
+    }, 
+    "snap_orkut/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.147, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,277,692", 
+                    "time": 0.672
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,239,020", 
+                    "time": 0.076
+                }, 
+                "CUDA driver and malloc cost": 0.006255999999999595, 
+                "Step4 - prepare results": {
+                    "mem": "2,277,492", 
+                    "time": 0.095
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,185,088", 
+                    "time": 3.02
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,239,020", 
+                    "time": 0.091
+                }, 
+                "CUDA Kernel Time": 2.140744, 
+                "bin-search cost": {
+                    "mem": "1,944,984", 
+                    "time": 0.741
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,251,152", 
+                    "time": 0.006
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,185,088", 
+                    "time": 0.129
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 1.818, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,279,928", 
+                    "time": 0.702
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,241,096", 
+                    "time": 0.083
+                }, 
+                "CUDA driver and malloc cost": 0.004631000000000052, 
+                "Step4 - prepare results": {
+                    "mem": "2,279,728", 
+                    "time": 0.098
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,187,172", 
+                    "time": 2.67
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,241,096", 
+                    "time": 0.084
+                }, 
+                "CUDA Kernel Time": 1.813369, 
+                "bin-search cost": {
+                    "mem": "1,950,912", 
+                    "time": 0.719
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,253,180", 
+                    "time": 0.005
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,187,164", 
+                    "time": 0.13
+                }
+            }
+        }
+    }, 
+    "small_snap_cit_patents/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.037, 
+                "Step4 - output to the disk cost": {
+                    "mem": "257,128", 
+                    "time": 0.292
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "216,060", 
+                    "time": 0.005
+                }, 
+                "CUDA driver and malloc cost": 0.004617999999999997, 
+                "Step4 - prepare results": {
+                    "mem": "256,976", 
+                    "time": 0.017
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "159,196", 
+                    "time": 0.06
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "218,996", 
+                    "time": 0.015
+                }, 
+                "CUDA Kernel Time": 0.032382, 
+                "bin-search cost": {
+                    "mem": "157,088", 
+                    "time": 0.007
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "237,812", 
+                    "time": 0.009
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "159,140", 
+                    "time": 0.013
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.043, 
+                "Step4 - output to the disk cost": {
+                    "mem": "252,688", 
+                    "time": 0.451
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "214,048", 
+                    "time": 0.003
+                }, 
+                "CUDA driver and malloc cost": 0.0037929999999999978, 
+                "Step4 - prepare results": {
+                    "mem": "252,464", 
+                    "time": 0.017
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "161,948", 
+                    "time": 0.065
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "216,896", 
+                    "time": 0.015
+                }, 
+                "CUDA Kernel Time": 0.039207, 
+                "bin-search cost": {
+                    "mem": "154,020", 
+                    "time": 0.009
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "235,688", 
+                    "time": 0.008
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "161,892", 
+                    "time": 0.012
+                }
+            }
+        }
+    }, 
+    "snap_pokec/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.158, 
+                "Step4 - output to the disk cost": {
+                    "mem": "433,088", 
+                    "time": 0.434
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "385,968", 
+                    "time": 0.011
+                }, 
+                "CUDA driver and malloc cost": 0.0036299999999999943, 
+                "Step4 - prepare results": {
+                    "mem": "433,088", 
+                    "time": 0.033
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "295,788", 
+                    "time": 0.261
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "390,268", 
+                    "time": 0.018
+                }, 
+                "CUDA Kernel Time": 0.15437, 
+                "bin-search cost": {
+                    "mem": "261,940", 
+                    "time": 0.078
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "397,200", 
+                    "time": 0.003
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "295,780", 
+                    "time": 0.023
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.164, 
+                "Step4 - output to the disk cost": {
+                    "mem": "432,504", 
+                    "time": 0.465
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "390,092", 
+                    "time": 0.011
+                }, 
+                "CUDA driver and malloc cost": 0.004643000000000008, 
+                "Step4 - prepare results": {
+                    "mem": "432,504", 
+                    "time": 0.032
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "302,736", 
+                    "time": 0.265
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "393,940", 
+                    "time": 0.018
+                }, 
+                "CUDA Kernel Time": 0.159357, 
+                "bin-search cost": {
+                    "mem": "263,992", 
+                    "time": 0.074
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "400,928", 
+                    "time": 0.004
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "302,728", 
+                    "time": 0.025
+                }
+            }
+        }
+    }, 
+    "webgraph_eu/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 20.745, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,926,620", 
+                    "time": 1.507
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,754,112", 
+                    "time": 0.22
+                }, 
+                "CUDA driver and malloc cost": 0.01580900000000085, 
+                "Step4 - prepare results": {
+                    "mem": "3,926,620", 
+                    "time": 0.486
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "3,628,824", 
+                    "time": 21.795
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,754,736", 
+                    "time": 0.118
+                }, 
+                "CUDA Kernel Time": 20.729191, 
+                "bin-search cost": {
+                    "mem": "3,249,120", 
+                    "time": 0.77
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,807,756", 
+                    "time": 0.023
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "3,628,824", 
+                    "time": 0.278
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 14.413, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,929,760", 
+                    "time": 1.537
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,757,220", 
+                    "time": 0.273
+                }, 
+                "CUDA driver and malloc cost": 0.0037450000000003314, 
+                "Step4 - prepare results": {
+                    "mem": "3,929,760", 
+                    "time": 0.443
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "3,643,788", 
+                    "time": 15.454
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,757,504", 
+                    "time": 0.132
+                }, 
+                "CUDA Kernel Time": 14.409255, 
+                "bin-search cost": {
+                    "mem": "3,262,544", 
+                    "time": 0.797
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,810,596", 
+                    "time": 0.023
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "3,643,788", 
+                    "time": 0.241
+                }
+            }
+        }
+    }, 
+    "n25_m40_1billion_edge/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 10.048, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,434,576", 
+                    "time": 0.056
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,336,916", 
+                    "time": 0.004
+                }, 
+                "CUDA driver and malloc cost": 0.007847999999999189, 
+                "Step4 - prepare results": {
+                    "mem": "18,434,576", 
+                    "time": 0.001
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,156,564", 
+                    "time": 20.981
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,336,916", 
+                    "time": 0.918
+                }, 
+                "CUDA Kernel Time": 10.040152, 
+                "bin-search cost": {
+                    "mem": "16,183,200", 
+                    "time": 8.218
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,434,576", 
+                    "time": 0.039
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,156,564", 
+                    "time": 2.713
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot3_Bin/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.747, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,341,908", 
+                    "time": 1.677
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,323,056", 
+                    "time": 0.262
+                }, 
+                "CUDA driver and malloc cost": 0.005284000000000066, 
+                "Step4 - prepare results": {
+                    "mem": "2,341,740", 
+                    "time": 0.147
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,110,688", 
+                    "time": 3.629
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,323,056", 
+                    "time": 0.005
+                }, 
+                "CUDA Kernel Time": 2.741716, 
+                "bin-search cost": {
+                    "mem": "1,820,276", 
+                    "time": 0.75
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,339,732", 
+                    "time": 0.011
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,110,688", 
+                    "time": 0.129
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 1.92, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,341,864", 
+                    "time": 1.347
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,323,048", 
+                    "time": 0.26
+                }, 
+                "CUDA driver and malloc cost": 0.0041959999999998665, 
+                "Step4 - prepare results": {
+                    "mem": "2,341,696", 
+                    "time": 0.152
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,055,540", 
+                    "time": 2.833
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,323,048", 
+                    "time": 0.002
+                }, 
+                "CUDA Kernel Time": 1.915804, 
+                "bin-search cost": {
+                    "mem": "1,779,164", 
+                    "time": 0.77
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,339,720", 
+                    "time": 0.008
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,055,540", 
+                    "time": 0.14
+                }
+            }
+        }
+    }, 
+    "n16dot7_m60_1billion_edge/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 13.402, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,217,980", 
+                    "time": 0.023
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,152,744", 
+                    "time": 0.003
+                }, 
+                "CUDA driver and malloc cost": 0.0219459999999998, 
+                "Step4 - prepare results": {
+                    "mem": "18,217,980", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,036,920", 
+                    "time": 23.845
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,152,744", 
+                    "time": 0.744
+                }, 
+                "CUDA Kernel Time": 13.380054, 
+                "bin-search cost": {
+                    "mem": "16,052,752", 
+                    "time": 8.105
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,217,980", 
+                    "time": 0.026
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,036,920", 
+                    "time": 2.335
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 12.692, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,217,932", 
+                    "time": 0.047
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,152,696", 
+                    "time": 0.003
+                }, 
+                "CUDA driver and malloc cost": 0.009415999999999869, 
+                "Step4 - prepare results": {
+                    "mem": "18,217,932", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "18,035,900", 
+                    "time": 23.25
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,152,696", 
+                    "time": 0.776
+                }, 
+                "CUDA Kernel Time": 12.682584, 
+                "bin-search cost": {
+                    "mem": "16,069,308", 
+                    "time": 8.247
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,217,932", 
+                    "time": 0.026
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "18,035,900", 
+                    "time": 2.308
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n3000000_k80_C0dot3_Bin": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 3.084, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,284,736", 
+                    "time": 0.954
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,272,028", 
+                    "time": 0.298
+                }, 
+                "CUDA driver and malloc cost": 0.006320000000000103, 
+                "Step4 - prepare results": {
+                    "mem": "2,284,736", 
+                    "time": 0.122
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,064,200", 
+                    "time": 4.081
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,272,144", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 3.07768, 
+                "bin-search cost": {
+                    "mem": "1,691,080", 
+                    "time": 0.866
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,284,476", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,064,200", 
+                    "time": 0.128
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.316, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,288,996", 
+                    "time": 0.986
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,276,388", 
+                    "time": 0.246
+                }, 
+                "CUDA driver and malloc cost": 0.004313999999999485, 
+                "Step4 - prepare results": {
+                    "mem": "2,288,992", 
+                    "time": 0.186
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,072,276", 
+                    "time": 3.259
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,276,388", 
+                    "time": 0.0
+                }, 
+                "CUDA Kernel Time": 2.3116860000000004, 
+                "bin-search cost": {
+                    "mem": "1,708,492", 
+                    "time": 0.816
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,288,944", 
+                    "time": 0.006
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,072,276", 
+                    "time": 0.124
+                }
+            }
+        }
+    }, 
+    "webgraph_it": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": null, 
+                "Step4 - output to the disk cost": null, 
+                "is_time_out": true, 
+                "is_correct": false, 
+                "Step2 - ClusterCore": null, 
+                "CUDA driver and malloc cost": null, 
+                "Step4 - prepare results": null, 
+                "Step1 - CheckCore:": null, 
+                "Step3 - LabelNonCore": null, 
+                "CUDA Kernel Time": null, 
+                "bin-search cost": null, 
+                "Step4 - cluster id initialization cost": null, 
+                "core-checking sim-core-comp cost": null
+            }
+        }
+    }, 
+    "webgraph_it/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 853.736, 
+                "Step4 - output to the disk cost": {
+                    "mem": "12,190,596", 
+                    "time": 9.913
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,426,472", 
+                    "time": 0.34
+                }, 
+                "CUDA driver and malloc cost": 0.07837499999993724, 
+                "Step4 - prepare results": {
+                    "mem": "12,190,596", 
+                    "time": 2.585
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "10,780,156", 
+                    "time": 856.321
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,428,068", 
+                    "time": 0.469
+                }, 
+                "CUDA Kernel Time": 853.657625, 
+                "bin-search cost": {
+                    "mem": "9,421,604", 
+                    "time": 1.795
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,621,012", 
+                    "time": 0.086
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "10,780,156", 
+                    "time": 0.788
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 5.17, 
+                "Step4 - output to the disk cost": {
+                    "mem": "12,188,684", 
+                    "time": 10.404
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "11,424,700", 
+                    "time": 0.329
+                }, 
+                "CUDA driver and malloc cost": 0.015227999999999575, 
+                "Step4 - prepare results": {
+                    "mem": "12,188,684", 
+                    "time": 1.613
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "10,979,264", 
+                    "time": 8.123
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "11,425,752", 
+                    "time": 0.485
+                }, 
+                "CUDA Kernel Time": 5.154772, 
+                "bin-search cost": {
+                    "mem": "9,676,936", 
+                    "time": 2.167
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "11,619,452", 
+                    "time": 0.086
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "10,979,264", 
+                    "time": 0.784
+                }
+            }
+        }
+    }, 
+    "n12dot5_m80_1billion_edge/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 15.796, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,054,000", 
+                    "time": 0.024
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,005,168", 
+                    "time": 0.002
+                }, 
+                "CUDA driver and malloc cost": 0.017711999999999506, 
+                "Step4 - prepare results": {
+                    "mem": "18,054,000", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "17,905,884", 
+                    "time": 26.111
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,005,168", 
+                    "time": 0.664
+                }, 
+                "CUDA Kernel Time": 15.778288, 
+                "bin-search cost": {
+                    "mem": "15,906,288", 
+                    "time": 8.34
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,053,848", 
+                    "time": 0.019
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "17,905,884", 
+                    "time": 1.971
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 14.996, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,054,132", 
+                    "time": 0.043
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,005,300", 
+                    "time": 0.004
+                }, 
+                "CUDA driver and malloc cost": 0.008146000000001763, 
+                "Step4 - prepare results": {
+                    "mem": "18,054,132", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "17,915,384", 
+                    "time": 25.582
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,005,300", 
+                    "time": 0.623
+                }, 
+                "CUDA Kernel Time": 14.987853999999999, 
+                "bin-search cost": {
+                    "mem": "15,947,468", 
+                    "time": 8.553
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,053,980", 
+                    "time": 0.02
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "17,915,384", 
+                    "time": 2.03
+                }
+            }
+        }
+    }, 
+    "webgraph_uk/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 1.478, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,604,172", 
+                    "time": 4.577
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,226,648", 
+                    "time": 0.111
+                }, 
+                "CUDA driver and malloc cost": 0.015571000000000002, 
+                "Step4 - prepare results": {
+                    "mem": "3,604,172", 
+                    "time": 0.781
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,930,208", 
+                    "time": 2.238
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,228,272", 
+                    "time": 0.115
+                }, 
+                "CUDA Kernel Time": 1.462429, 
+                "bin-search cost": {
+                    "mem": "2,634,612", 
+                    "time": 0.547
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,316,848", 
+                    "time": 0.041
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,930,204", 
+                    "time": 0.211
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 1.05, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,598,144", 
+                    "time": 4.594
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,217,572", 
+                    "time": 0.107
+                }, 
+                "CUDA driver and malloc cost": 0.0049879999999999924, 
+                "Step4 - prepare results": {
+                    "mem": "3,598,144", 
+                    "time": 0.499
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,871,036", 
+                    "time": 1.821
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,224,936", 
+                    "time": 0.111
+                }, 
+                "CUDA Kernel Time": 1.045012, 
+                "bin-search cost": {
+                    "mem": "2,565,584", 
+                    "time": 0.56
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,313,512", 
+                    "time": 0.039
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,871,036", 
+                    "time": 0.209
+                }
+            }
+        }
+    }, 
+    "lfr_graphs/n4000000_k60_C0dot1_Bin/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 2.681, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,346,468", 
+                    "time": 1.322
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,327,224", 
+                    "time": 0.24
+                }, 
+                "CUDA driver and malloc cost": 0.006260000000000154, 
+                "Step4 - prepare results": {
+                    "mem": "2,346,300", 
+                    "time": 0.161
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,098,428", 
+                    "time": 3.592
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,327,600", 
+                    "time": 0.002
+                }, 
+                "CUDA Kernel Time": 2.67474, 
+                "bin-search cost": {
+                    "mem": "1,797,416", 
+                    "time": 0.782
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,344,600", 
+                    "time": 0.008
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,098,428", 
+                    "time": 0.127
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 2.035, 
+                "Step4 - output to the disk cost": {
+                    "mem": "2,341,844", 
+                    "time": 1.336
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "2,322,940", 
+                    "time": 0.308
+                }, 
+                "CUDA driver and malloc cost": 0.004150000000000098, 
+                "Step4 - prepare results": {
+                    "mem": "2,341,728", 
+                    "time": 0.148
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "2,121,316", 
+                    "time": 2.912
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "2,322,940", 
+                    "time": 0.002
+                }, 
+                "CUDA Kernel Time": 2.03085, 
+                "bin-search cost": {
+                    "mem": "1,829,004", 
+                    "time": 0.745
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "2,339,684", 
+                    "time": 0.008
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "2,121,316", 
+                    "time": 0.129
+                }
+            }
+        }
+    }, 
+    "n12dot5_m80_1billion_edge": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 15.788, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,054,060", 
+                    "time": 0.013
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,005,228", 
+                    "time": 0.002
+                }, 
+                "CUDA driver and malloc cost": 0.01699699999999993, 
+                "Step4 - prepare results": {
+                    "mem": "18,054,060", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "17,913,132", 
+                    "time": 26.412
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,005,228", 
+                    "time": 0.603
+                }, 
+                "CUDA Kernel Time": 15.771003, 
+                "bin-search cost": {
+                    "mem": "15,943,500", 
+                    "time": 8.617
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,053,896", 
+                    "time": 0.02
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "17,913,132", 
+                    "time": 2.003
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 15.08, 
+                "Step4 - output to the disk cost": {
+                    "mem": "18,056,036", 
+                    "time": 0.05
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "18,007,204", 
+                    "time": 0.002
+                }, 
+                "CUDA driver and malloc cost": 0.007385000000001085, 
+                "Step4 - prepare results": {
+                    "mem": "18,056,036", 
+                    "time": 0.0
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "17,914,776", 
+                    "time": 25.782
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "18,007,204", 
+                    "time": 0.616
+                }, 
+                "CUDA Kernel Time": 15.072614999999999, 
+                "bin-search cost": {
+                    "mem": "15,927,384", 
+                    "time": 8.729
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "18,055,884", 
+                    "time": 0.02
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "17,914,776", 
+                    "time": 1.97
+                }
+            }
+        }
+    }, 
+    "small_snap_cit_patents": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.036, 
+                "Step4 - output to the disk cost": {
+                    "mem": "263,656", 
+                    "time": 0.398
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "217,812", 
+                    "time": 0.001
+                }, 
+                "CUDA driver and malloc cost": 0.005065, 
+                "Step4 - prepare results": {
+                    "mem": "263,412", 
+                    "time": 0.015
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "165,428", 
+                    "time": 0.049
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "218,016", 
+                    "time": 0.008
+                }, 
+                "CUDA Kernel Time": 0.030934999999999997, 
+                "bin-search cost": {
+                    "mem": "158,944", 
+                    "time": 0.007
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "236,832", 
+                    "time": 0.006
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "165,372", 
+                    "time": 0.005
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.038, 
+                "Step4 - output to the disk cost": {
+                    "mem": "263,892", 
+                    "time": 0.396
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "218,208", 
+                    "time": 0.001
+                }, 
+                "CUDA driver and malloc cost": 0.002904999999999998, 
+                "Step4 - prepare results": {
+                    "mem": "263,864", 
+                    "time": 0.015
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "169,328", 
+                    "time": 0.052
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "218,412", 
+                    "time": 0.009
+                }, 
+                "CUDA Kernel Time": 0.035095, 
+                "bin-search cost": {
+                    "mem": "159,276", 
+                    "time": 0.007
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "237,232", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "169,272", 
+                    "time": 0.004
+                }
+            }
+        }
+    }, 
+    "webgraph_eu": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 23.722, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,923,228", 
+                    "time": 1.457
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,761,856", 
+                    "time": 0.244
+                }, 
+                "CUDA driver and malloc cost": 0.016111000000002207, 
+                "Step4 - prepare results": {
+                    "mem": "3,923,224", 
+                    "time": 0.185
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "3,625,528", 
+                    "time": 24.635
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,762,144", 
+                    "time": 0.116
+                }, 
+                "CUDA Kernel Time": 23.705889, 
+                "bin-search cost": {
+                    "mem": "3,233,452", 
+                    "time": 0.664
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,815,172", 
+                    "time": 0.022
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "3,625,528", 
+                    "time": 0.246
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 15.824, 
+                "Step4 - output to the disk cost": {
+                    "mem": "3,921,376", 
+                    "time": 1.533
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "3,759,912", 
+                    "time": 0.198
+                }, 
+                "CUDA driver and malloc cost": 0.006624999999999659, 
+                "Step4 - prepare results": {
+                    "mem": "3,921,372", 
+                    "time": 0.216
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "3,628,080", 
+                    "time": 16.711
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "3,760,124", 
+                    "time": 0.116
+                }, 
+                "CUDA Kernel Time": 15.817375, 
+                "bin-search cost": {
+                    "mem": "3,228,380", 
+                    "time": 0.664
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "3,813,152", 
+                    "time": 0.021
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "3,628,080", 
+                    "time": 0.219
+                }
+            }
+        }
+    }, 
+    "snap_livejournal/rev_deg": {
+        "56": {
+            "scan-xp-cuda-bitmap-kernel": {
+                "CUDA kernel lauch cost": 0.417, 
+                "Step4 - output to the disk cost": {
+                    "mem": "922,340", 
+                    "time": 1.285
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "805,364", 
+                    "time": 0.045
+                }, 
+                "CUDA driver and malloc cost": 0.007095999999999991, 
+                "Step4 - prepare results": {
+                    "mem": "922,340", 
+                    "time": 0.11
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "678,872", 
+                    "time": 0.649
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "807,160", 
+                    "time": 0.031
+                }, 
+                "CUDA Kernel Time": 0.409904, 
+                "bin-search cost": {
+                    "mem": "609,724", 
+                    "time": 0.176
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "823,576", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "678,720", 
+                    "time": 0.053
+                }
+            }, 
+            "scan-xp-cuda-bitmap-warp-per-vertex": {
+                "CUDA kernel lauch cost": 0.375, 
+                "Step4 - output to the disk cost": {
+                    "mem": "924,996", 
+                    "time": 1.194
+                }, 
+                "is_time_out": true, 
+                "is_correct": true, 
+                "Step2 - ClusterCore": {
+                    "mem": "814,824", 
+                    "time": 0.049
+                }, 
+                "CUDA driver and malloc cost": 0.0036630000000000273, 
+                "Step4 - prepare results": {
+                    "mem": "924,996", 
+                    "time": 0.077
+                }, 
+                "Step1 - CheckCore:": {
+                    "mem": "690,972", 
+                    "time": 0.604
+                }, 
+                "Step3 - LabelNonCore": {
+                    "mem": "814,824", 
+                    "time": 0.031
+                }, 
+                "CUDA Kernel Time": 0.371337, 
+                "bin-search cost": {
+                    "mem": "622,272", 
+                    "time": 0.175
+                }, 
+                "Step4 - cluster id initialization cost": {
+                    "mem": "831,240", 
+                    "time": 0.007
+                }, 
+                "core-checking sim-core-comp cost": {
+                    "mem": "690,820", 
+                    "time": 0.052
+                }
+            }
+        }
+    }
+}
