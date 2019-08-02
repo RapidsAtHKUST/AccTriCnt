@@ -35,7 +35,7 @@ Accelerating All-Edge Common Neighbor Counting on Three Processors.
 In 48th International Conference on Parallel Processing (ICPP 2019), August
 5–8, 2019, Kyoto, Japan. ACM, New York, NY, USA, 10 pages. 
 [pdf](https://www.dropbox.com/sh/nth7vbh3itng4c6/AACIHgU0yKrhV3SP-F371gYna?preview=2019-08-icpp-acc-all-edge-tri-counting.pdf),
-[code](https://github.com/RapidsAtHKUST/AccTriCnt)
+[code](https://github.com/RapidsAtHKUST/AccTriCnt), [slides](https://www.dropbox.com/sh/i1r45o2ceraey8j/AAD8V3WwPElQjwJ0-QtaKAzYa?dl=0&preview=accTriCnt.pdf)
 
 * Yulin Che, Shixuan Sun, Qiong Luo. 2018. Parallelizing Pruning-based Graph Structural Clustering. 
 In ICPP 2018: 47th International Conference on Parallel Processing, August 13–16, 2018, 
